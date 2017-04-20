@@ -1,6 +1,8 @@
 ---
 title: Mark West and Molly Rose
 date: 2017-04-20 07:23:00 Z
+thumbnail:
+  image: "/uploads/kelly-sikkema-209680.jpg"
 ---
 
 ![kelly-sikkema-209680.jpg](/uploads/kelly-sikkema-209680.jpg)
