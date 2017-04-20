@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<main class="main">
+
+  <section class="projects">
+    {% for post in site.posts %}
+      <article class="project__project">
+      <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      </article>
+    {% endfor %}
+  </section>
+
+</main>
