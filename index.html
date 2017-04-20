@@ -16,11 +16,15 @@ layout: default
 
   <section class="padded-x projects">
 
-    {% for post in site.posts %}
+    {% for project in site.projects %}
 
       <article class="project__project">
 
-        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <a class="project__link" href="{{ project.url | prepend: site.baseurl }}">
+
+          {{ project.title }}
+
+        </a>
 
       </article>
 
