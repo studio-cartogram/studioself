@@ -1,4 +1,77 @@
 ---
 ---
 
-@import 'base';
+/**
+ * Global Project Specific Variables
+ */
+
+@import 'config/paths';
+@import 'config/colors';
+@import 'config/typography';
+@import 'config/dimensions';
+@import 'config/breakpoints';
+@import 'config/animations';
+@import 'config/layers';
+@import 'config/keyframes';
+
+
+/**
+ * Utilities
+ */
+@import 'helpers/mixins/bp';
+@import 'helpers/mixins/fit';
+@import 'helpers/mixins/reset';
+@import 'helpers/mixins/clearfix';
+@import 'helpers/mixins/visuallyhidden';
+@import 'helpers/mixins/grid-item';
+@import 'helpers/mixins/placeholder';
+
+/**
+ * Vendor Styles
+ */
+@import 'vendor/sanitize';
+@import 'vendor/barba';
+@import 'vendor/revealer';
+
+/**
+ * Common Styles
+ */
+@import 'common/global';
+@import 'common/grid';
+@import 'common/visibility';
+@import 'common/utils';
+
+/**
+ * Typography Styles
+ */
+@import 'typography/global';
+@import 'typography/headings';
+@import 'typography/paragraphs';
+
+/**
+ * Atoms Styles
+ */
+@import 'atoms/anchor';
+@import 'atoms/brand';
+@import 'atoms/title';
+@import 'atoms/media';
+@import 'atoms/curtain';
+@import 'atoms/intro';
+
+/**
+ * Organisms Styles
+ */
+@import 'organisms/header';
+
+/**
+ * Template Styles
+ */
+@import 'templates/homepage';
+@import 'templates/page';
+@import 'templates/post';
+
+/**
+ * Shame Styles
+ * Obviously keep this to a minimum
+ */
+@import 'shame';

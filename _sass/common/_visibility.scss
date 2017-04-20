@@ -1,0 +1,16 @@
+/* =========================================
+Visibility
+========================================= */
+
+.visuallyhidden {
+  @include visuallyhidden;
+  &.visuallyhidden--no-js { @include visuallyhidden(no-js); }
+  &.visuallyhidden--focusable { @include visuallyhidden(focusable); }
+}
+
+.clearvisuallyhidden--tablet {
+  @include bp($bp-tablet) {
+    @include clearVisuallyhidden;
+  }
+}
+

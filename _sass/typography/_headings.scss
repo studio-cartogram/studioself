@@ -1,0 +1,76 @@
+/* =========================================
+Heading Typography
+========================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-rendering: optimizeLegibility;
+  color: $ca-heading-color;
+  font-weight: $t-font-weight-bold;
+  margin: 0;
+  padding: 0;
+  &.secondary {
+    color: $ca-heading-secondary-color;
+  }
+}
+
+h1 {
+  font-family: $t-font-family-serif;
+  font-size: $t-font-size-alpha-mobile;
+  font-weight: $t-font-weight-regular;
+  @include bp($bp-tablet) {
+    font-size: $t-font-size-alpha;
+  }
+}
+
+h2 {
+  font-family: $t-font-family-serif;
+  font-size: $t-font-size-beta-mobile;
+  font-weight: $t-font-weight-regular;
+  @include bp($bp-tablet) {
+    font-size: $t-font-size-beta;
+  }
+}
+
+
+h3 {
+  font-size: $t-font-size-gamma;
+}
+
+h4 {
+  font-size: $t-font-size-delta;
+}
+
+h5 {
+  font-size: $t-font-size-epsilon;
+  font-weight: $t-font-weight-regular;
+}
+
+h6 {
+  font-size: $t-font-size-zeta;
+  font-family: $t-font-family-serif;
+}
+
+.alpha {
+  @extend h1;
+}
+
+.beta {
+  @extend h2;
+}
+
+.gamma {
+  @extend h3;
+}
+
+.delta {
+  @extend h4;
+}
+
+.epsilon {
+  @extend h5;
+}

@@ -2,14 +2,34 @@
 layout: default
 ---
 
+<header class="padded-x header">
+
+  {% include brand.html %}
+
+  {% include title.html %}
+
+  {% include nav.html %}
+
+</header>
+
 <main class="main">
 
-  <section class="projects">
-    {% for post in site.posts %}
+  <section class="padded-x projects">
+
+    {% for project in site.projects %}
+
       <article class="project__project">
-      <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
+        <a class="project__link" href="{{ project.url | prepend: site.baseurl }}">
+
+          {{ project.title }}
+
+        </a>
+
       </article>
+
     {% endfor %}
+
   </section>
 
 </main>

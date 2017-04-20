@@ -1,0 +1,8 @@
+.padded-x {
+  padding-left: $d-duo;
+  padding-right: $d-duo;
+  @include bp($bp-tablet) {
+    padding-left: $d-trio;
+    padding-right: $d-trio;
+  }
+}

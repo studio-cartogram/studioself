@@ -1,0 +1,15 @@
+/* =========================================
+Paths
+========================================= */
+/**
+ * Prefix paths with $p_ to make
+ * them easier to find with
+ * autocomplete
+ *
+ */
+
+$p-assets: '../';
+
+$p-images: $p-assets + 'img/';
+
+$p-svg: $p-assets + 'svg/';

@@ -1,0 +1,29 @@
+/* =========================================
+Typography
+========================================= */
+/**
+ * Prefix typography vars with $t_
+ * to make them easier to find with
+ * autocomplete
+ *
+ */
+
+$t-em-base: 16;
+$t-font-family: sans-serif;
+$t-font-family-serif: serif;
+
+$t-font-weight-regular: 400;
+$t-font-weight-bold: 700;
+
+$t-font-size-alpha: 16 / $t-em-base + em;
+$t-font-size-beta: 16 / $t-em-base + em;
+$t-font-size-gamma: 16 / $t-em-base + em;
+$t-font-size-delta: 16 / $t-em-base + em;
+$t-font-size-epsilon: 16 / $t-em-base + em;
+$t-font-size-zeta: 16 / $t-em-base + em;
+
+$t-font-size-alpha-mobile: 16 / $t-em-base + em;
+$t-font-size-beta-mobile: 16 / $t-em-base + em;
+
+$t-font-size-p-large: 18 / $t-em-base + em;
+$t-font-size-p-small: 12 / $t-em-base + em;

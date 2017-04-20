@@ -1,0 +1,43 @@
+/* =========================================
+Color Index
+========================================= */
+/**
+ * Prefix colors with $c- this
+ * makes them easily findable
+ * with auto complete
+ *
+ * Give colors their names in the
+ * index. This makes it easier to
+ * arrange them reasonably in the
+ * index
+ */
+
+$c-black: #231D24;
+$c-white: #FFFFFF;
+$c-orange: orange;
+
+/* =========================================
+Colors Applied
+========================================= */
+/**
+ * Prefix applied colors with $ca-
+ * this makes them easily findable
+ * with auto complete
+ *
+ * Define where colors where and how
+ * colors are used. This makes it
+ * easier to use them in the rest
+ * of the sass code
+ */
+
+$ca-site-background: $c-white;
+$ca-curtain-background: $c-orange;
+
+$ca-anchor-color: $c-black;
+$ca-anchor-hover-color: $c-black;
+
+$ca-paragraph-color: $c-black;
+$ca-paragraph-secondary-color: $c-black;
+
+$ca-heading-color: $c-black;
+$ca-heading-secondary-color: $c-black;

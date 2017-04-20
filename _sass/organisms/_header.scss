@@ -1,0 +1,22 @@
+.header {
+  z-index: index($l-site, header);
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  transition: all $a-timing $a-easing;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: none;
+  height: $d-header-height-mobile;
+  @include bp($bp-tablet) {
+    height: $d-header-height;
+  }
+
+  a {
+    pointer-events: auto
+  }
+
+}
+
