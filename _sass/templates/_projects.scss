@@ -1,0 +1,23 @@
+.projects {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project__project {
+  max-width: 100%;
+
+  @include bp($bp-tablet) {
+    max-width: 40%;
+  }
+
+  @include bp($bp-laptop) {
+    max-width: 30%;
+  }
+}
+
+.project__link {
+  display: block;
+  padding-bottom: $d-trio;
+}

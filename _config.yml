@@ -19,7 +19,7 @@ defaults:
     path: ''
     type: projects
   values:
-    layout: post
+    layout: "project"
     thumbnail:
       image: 
 permalink: pretty

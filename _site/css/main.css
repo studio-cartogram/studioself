@@ -1601,10 +1601,21 @@ img:after {
 .projects {
   display: flex;
   align-items: flex-end;
-  justify-content: center; }
+  justify-content: space-around;
+  flex-wrap: wrap; }
 
 .project__project {
-  max-width: 25%; }
+  max-width: 100%; }
+  @media all and (min-width: 700px) {
+    .project__project {
+      max-width: 40%; } }
+  @media all and (min-width: 950px) {
+    .project__project {
+      max-width: 30%; } }
+
+.project__link {
+  display: block;
+  padding-bottom: 24px; }
 
 /**
  * Shame Styles
