@@ -1,0 +1,30 @@
+/* =========================================
+Dimensions
+========================================= */
+/**
+ * Prefix dimensions with $d_
+ * to make them easier to find
+ * with autocomplete
+ *
+ */
+
+$d-container-max: 1200px;
+
+$d-base: 8px;
+$d-half: $d-base/2;
+$d-duo: $d-base * 2;
+$d-trio: $d-base * 3;
+$d-quad: $d-base * 4;
+$d-quin: $d-base * 5;
+$d-sex: $d-base * 6;
+$d-sep: $d-base * 7;
+$d-oct: $d-base * 8;
+$d-nano: $d-base * 9;
+$d-dec: $d-base * 10;
+$d-doz: $d-base * 12;
+$d-block-corner-icon: $d-base * 30;
+
+$d-grid-columns: 12;
+
+$d-header-height: $d-dec;
+$d-header-height-mobile: $d-sep;

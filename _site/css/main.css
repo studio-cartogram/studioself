@@ -1,2 +1,1609 @@
+/**
+ * Global Project Specific Variables
+ */
+/* =========================================
+Paths
+========================================= */
+/**
+ * Prefix paths with $p_ to make
+ * them easier to find with
+ * autocomplete
+ *
+ */
+/* =========================================
+Color Index
+========================================= */
+/**
+ * Prefix colors with $c- this
+ * makes them easily findable
+ * with auto complete
+ *
+ * Give colors their names in the
+ * index. This makes it easier to
+ * arrange them reasonably in the
+ * index
+ */
+/* =========================================
+Colors Applied
+========================================= */
+/**
+ * Prefix applied colors with $ca-
+ * this makes them easily findable
+ * with auto complete
+ *
+ * Define where colors where and how
+ * colors are used. This makes it
+ * easier to use them in the rest
+ * of the sass code
+ */
+/* =========================================
+Typography
+========================================= */
+/**
+ * Prefix typography vars with $t_
+ * to make them easier to find with
+ * autocomplete
+ *
+ */
+/* =========================================
+Dimensions
+========================================= */
+/**
+ * Prefix dimensions with $d_
+ * to make them easier to find
+ * with autocomplete
+ *
+ */
+/* =========================================
+Breakpoints
+========================================= */
+/**
+ * Prefix breakpoints with $b_
+ * You can use the 'bp' mixin to
+ * easily add breakpoints
+ */
+/* =========================================
+Animations
+========================================= */
+/**
+ * Prefix animation variables with $a
+ */
+.scene__item {
+  -webkit-animation-duration: 400ms;
+  animation-duration: 400ms;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+.scene__item--fadein {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
+
+.scene__item--fadeinup {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp; }
+
+.scene__item--delayed {
+  -webkit-animation-delay: 400ms;
+  animation-delay: 400ms; }
+
+.js-is-leaving .scene__item {
+  -webkit-animation-direction: alternate-reverse;
+  animation-direction: alternate-reverse; }
+
+.js-is-leaving .scene__item--delayed {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+.js-is-leaving .scene__item--noexit {
+  -webkit-animation-direction: alternate-reverse;
+  animation-direction: alternate-reverse; }
+
+.scroll-watch .scene__item, .scroll-watch.scene__item {
+  -webkit-animation-name: none;
+  animation-name: none; }
+.scroll-watch.is-in-view .scene__item--fadeinup, .scroll-watch.is-in-view.scene__item--fadeinup {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp; }
+
+/* =========================================
+Layers
+========================================= */
+/**
+ * Add Project Specific Indexes
+ *
+ * $modal-elements: append($modal-elements, close-button);
+ * $elements: insert-nth($elements, sidebar-filters, 3);
+ *
+ * .modal .close-button {
+ *    z-index: index($modal-elements, close-button);
+ * }
+ * .sidebar-filter {
+ *    z-index: index($elements, sidebar-filter);
+ * }
+ */
+/* =========================================
+Keyframes
+========================================= */
+/**
+ * SlideInDown
+ */
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+/**
+ * SlideInUp
+ */
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible; }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+/**
+ * SlideOutUp
+ */
+@-webkit-keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); } }
+@keyframes slideOutUp {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); } }
+/**
+ * FadeIn
+ */
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+/**
+ * FadeInUp
+ */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+/**
+ * Utilities
+ */
+/* =========================================
+BP - Breakpoint Mixin
+========================================= */
+/**
+ * Helper to make it
+ * easier to print
+ * media queries
+ *
+ * @param $query
+ * @param $context
+ */
+/* =========================================
+Object Fit
+========================================= */
+/**
+ * Cover a parent element
+ *
+ */
+/* =========================================
+Reset
+========================================= */
+/* =========================================
+Clearfix
+========================================= */
+/**
+ * De-Collapse Floated content within
+ * element
+ *
+ */
+/* =========================================
+Visuallyhidden
+========================================= */
+/**
+ * Clear the visuallyhidden styles from
+ * an element given by the visuallyhidden
+ * mixin
+ *
+ */
+/**
+ * Hide only visually, but have it available
+ * for screenreaders: h5bp.com/v
+ *
+ */
+/* =========================================
+Grid Item
+========================================= */
+/* =========================================
+Placeholder
+========================================= */
+/**
+ * Convenience mixin to
+ * help style input
+ * placeholder
+ * text
+ *
+ */
+/**
+ * Vendor Styles
+ */
+/*! sanitize.css v4.1.0 | CC0 License | github.com/jonathantneal/sanitize.css */
+/* Display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+template,
+[hidden] {
+  display: none; }
+
+/* Elements of HTML (https://www.w3.org/TR/html5/semantics.html)
+   ========================================================================== */
+/**
+ * 1. Remove repeating backgrounds in all browsers (opinionated).
+ * 2. Add box sizing inheritence in all browsers (opinionated).
+ */
+*,
+::before,
+::after {
+  background-repeat: no-repeat;
+  /* 1 */
+  box-sizing: inherit;
+  /* 2 */ }
+
+/**
+ * 1. Add text decoration inheritance in all browsers (opinionated).
+ * 2. Add vertical alignment inheritence in all browsers (opinionated).
+ */
+::before,
+::after {
+  text-decoration: inherit;
+  /* 1 */
+  vertical-align: inherit;
+  /* 2 */ }
+
+/**
+ * 1. Add border box sizing in all browsers (opinionated).
+ * 2. Add the default cursor in all browsers (opinionated).
+ * 3. Add a flattened line height in all browsers (opinionated).
+ * 4. Prevent font size adjustments after orientation changes in IE and iOS.
+ */
+html {
+  box-sizing: border-box;
+  /* 1 */
+  cursor: default;
+  /* 2 */
+  font-family: sans-serif;
+  /* 3 */
+  line-height: 1.5;
+  /* 3 */
+  -ms-text-size-adjust: 100%;
+  /* 4 */
+  -webkit-text-size-adjust: 100%;
+  /* 4 */ }
+
+/* Sections (https://www.w3.org/TR/html5/sections.html)
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
 body {
-  background: yellow; }
+  margin: 0; }
+
+/**
+ * Correct the font sizes and margins on `h1` elements within
+ * `section` and `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1, .alpha {
+  font-size: 2em;
+  margin: .67em 0; }
+
+/* Grouping content (https://www.w3.org/TR/html5/grouping-content.html)
+   ========================================================================== */
+/**
+ * 1. Correct font sizing inheritance and scaling in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * 1. Correct the height in Firefox.
+ * 2. Add visible overflow in Edge and IE.
+ */
+hr {
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * Remove the list style on navigation lists in all browsers (opinionated).
+ */
+nav ol,
+nav ul {
+  list-style: none; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Add a bordered underline effect in all browsers.
+ * 2. Remove text decoration in Firefox 40+.
+ */
+abbr[title] {
+  border-bottom: 1px dotted;
+  /* 1 */
+  text-decoration: none;
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Add the correct colors in IE 9-.
+ */
+mark {
+  background-color: #ffff00;
+  color: #000000; }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Correct the font size in all browsers.
+ */
+small {
+  font-size: 83.3333%; }
+
+/**
+ * Change the positioning on superscript and subscript elements
+ * in all browsers (opinionated).
+ * 1. Correct the font size in all browsers.
+ */
+sub,
+sup {
+  font-size: 83.3333%;
+  /* 1 */
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -.25em; }
+
+sup {
+  top: -.5em; }
+
+/*
+ * Remove the text shadow on text selections (opinionated).
+ * 1. Restore the coloring undone by defining the text shadow (opinionated).
+ */
+::-moz-selection {
+  background-color: #b3d4fc;
+  /* 1 */
+  color: #000000;
+  /* 1 */
+  text-shadow: none; }
+
+::selection {
+  background-color: #b3d4fc;
+  /* 1 */
+  color: #000000;
+  /* 1 */
+  text-shadow: none; }
+
+/* Embedded content (https://www.w3.org/TR/html5/embedded-content-0.html)
+   ========================================================================== */
+/*
+ * Change the alignment on media elements in all browers (opinionated).
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Change the fill color to match the text color in all browsers (opinionated).
+ */
+svg {
+  fill: currentColor; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Links (https://www.w3.org/TR/html5/links.html#links)
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove the gaps in underlines in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+ * Remove the outline when hovering in all browsers (opinionated).
+ */
+a:hover {
+  outline-width: 0; }
+
+/* Tabular data (https://www.w3.org/TR/html5/tabular-data.html)
+   ========================================================================== */
+/*
+ * Remove border spacing in all browsers (opinionated).
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* transform-style:  (https://www.w3.org/TR/html5/forms.html)
+   ========================================================================== */
+/**
+ * 1. Remove the default styling in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+select,
+textarea {
+  background-color: transparent;
+  /* 1 */
+  border-style: none;
+  /* 1 */
+  color: inherit;
+  /* 1 */
+  font-size: 1em;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Correct the overflow in IE.
+ * 1. Correct the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance in Edge, Firefox, and IE.
+ * 1. Remove the inheritance in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent the WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Correct the focus styles unset by the previous rule.
+ */
+:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the border, margin, and padding in all browsers.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * 1. Remove the vertical scrollbar in IE.
+ * 2. Change the resize direction on textareas in all browsers (opinionated).
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  resize: vertical;
+  /* 2 */ }
+
+/**
+ * Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  padding: 0; }
+
+/**
+ * Correct the cursor style on increment and decrement buttons in Chrome.
+ */
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari for OS X.
+ */
+::-webkit-search-cancel-button,
+::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Correct the text style on placeholders in Chrome, Edge, and Safari.
+ */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .54; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* WAI-ARIA (https://www.w3.org/TR/html5/dom.html#wai-aria)
+   ========================================================================== */
+/**
+ * Change the cursor on busy elements (opinionated).
+ */
+[aria-busy="true"] {
+  cursor: progress; }
+
+/*
+ * Change the cursor on control elements (opinionated).
+ */
+[aria-controls] {
+  cursor: pointer; }
+
+/*
+ * Change the cursor on disabled, not-editable, or otherwise
+ * inoperable elements (opinionated).
+ */
+[aria-disabled] {
+  cursor: default; }
+
+/* User interaction (https://www.w3.org/TR/html5/editing.html)
+   ========================================================================== */
+/*
+ * Remove the tapping delay on clickable elements (opinionated).
+ * 1. Remove the tapping delay in IE 10.
+ */
+a,
+area,
+button,
+input,
+label,
+select,
+textarea,
+[tabindex] {
+  -ms-touch-action: manipulation;
+  /* 1 */
+  touch-action: manipulation; }
+
+/*
+ * Change the display on visually hidden accessible elements (opinionated).
+ */
+[hidden][aria-hidden="false"] {
+  clip: rect(0, 0, 0, 0);
+  display: inherit;
+  position: absolute; }
+
+[hidden][aria-hidden="false"]:focus {
+  clip: auto; }
+
+.block-revealer__content {
+  transform: scale(1); }
+
+.block-revealer__element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  pointer-events: none;
+  opacity: 0;
+  will-change: opacity; }
+
+/**
+ * Common Styles
+ */
+/* =========================================
+Common Styles
+========================================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #FFFFFF; }
+
+.main {
+  flex: 1;
+  transition: all 400ms 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  padding-top: 56px; }
+  @media all and (min-width: 700px) {
+    .main {
+      padding-top: 80px; } }
+  .js-is-initialized .main {
+    opacity: 1; }
+  .js-is-loading .main {
+    opacity: 0; }
+
+/* =========================================
+Grid Component
+========================================= */
+.container {
+  position: relative;
+  margin: 0 auto; }
+
+.row {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; }
+
+.row--justify-center {
+  justify-content: center; }
+
+.row--align-center {
+  align-items: center; }
+
+.row--full {
+  max-width: 100%; }
+
+.column {
+  flex: 0 0 auto;
+  width: 100%; }
+
+.column-0 {
+  flex-basis: 0%;
+  max-width: 0%; }
+
+.offset-0 {
+  margin-left: 0%; }
+
+@media all and (min-width: 450px) {
+  .column-0-mobile {
+    flex-basis: 0%;
+    max-width: 0%; } }
+
+@media all and (min-width: 450px) {
+  .offset-0-mobile {
+    margin-left: 0%; } }
+
+@media all and (min-width: 700px) {
+  .column-0-tablet {
+    flex-basis: 0%;
+    max-width: 0%; } }
+
+@media all and (min-width: 700px) {
+  .offset-0-tablet {
+    margin-left: 0%; } }
+
+.column-1 {
+  flex-basis: 8.33333%;
+  max-width: 8.33333%; }
+
+.offset-1 {
+  margin-left: 8.33333%; }
+
+@media all and (min-width: 450px) {
+  .column-1-mobile {
+    flex-basis: 8.33333%;
+    max-width: 8.33333%; } }
+
+@media all and (min-width: 450px) {
+  .offset-1-mobile {
+    margin-left: 8.33333%; } }
+
+@media all and (min-width: 700px) {
+  .column-1-tablet {
+    flex-basis: 8.33333%;
+    max-width: 8.33333%; } }
+
+@media all and (min-width: 700px) {
+  .offset-1-tablet {
+    margin-left: 8.33333%; } }
+
+.column-2 {
+  flex-basis: 16.66667%;
+  max-width: 16.66667%; }
+
+.offset-2 {
+  margin-left: 16.66667%; }
+
+@media all and (min-width: 450px) {
+  .column-2-mobile {
+    flex-basis: 16.66667%;
+    max-width: 16.66667%; } }
+
+@media all and (min-width: 450px) {
+  .offset-2-mobile {
+    margin-left: 16.66667%; } }
+
+@media all and (min-width: 700px) {
+  .column-2-tablet {
+    flex-basis: 16.66667%;
+    max-width: 16.66667%; } }
+
+@media all and (min-width: 700px) {
+  .offset-2-tablet {
+    margin-left: 16.66667%; } }
+
+.column-3 {
+  flex-basis: 25%;
+  max-width: 25%; }
+
+.offset-3 {
+  margin-left: 25%; }
+
+@media all and (min-width: 450px) {
+  .column-3-mobile {
+    flex-basis: 25%;
+    max-width: 25%; } }
+
+@media all and (min-width: 450px) {
+  .offset-3-mobile {
+    margin-left: 25%; } }
+
+@media all and (min-width: 700px) {
+  .column-3-tablet {
+    flex-basis: 25%;
+    max-width: 25%; } }
+
+@media all and (min-width: 700px) {
+  .offset-3-tablet {
+    margin-left: 25%; } }
+
+.column-4 {
+  flex-basis: 33.33333%;
+  max-width: 33.33333%; }
+
+.offset-4 {
+  margin-left: 33.33333%; }
+
+@media all and (min-width: 450px) {
+  .column-4-mobile {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%; } }
+
+@media all and (min-width: 450px) {
+  .offset-4-mobile {
+    margin-left: 33.33333%; } }
+
+@media all and (min-width: 700px) {
+  .column-4-tablet {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%; } }
+
+@media all and (min-width: 700px) {
+  .offset-4-tablet {
+    margin-left: 33.33333%; } }
+
+.column-5 {
+  flex-basis: 41.66667%;
+  max-width: 41.66667%; }
+
+.offset-5 {
+  margin-left: 41.66667%; }
+
+@media all and (min-width: 450px) {
+  .column-5-mobile {
+    flex-basis: 41.66667%;
+    max-width: 41.66667%; } }
+
+@media all and (min-width: 450px) {
+  .offset-5-mobile {
+    margin-left: 41.66667%; } }
+
+@media all and (min-width: 700px) {
+  .column-5-tablet {
+    flex-basis: 41.66667%;
+    max-width: 41.66667%; } }
+
+@media all and (min-width: 700px) {
+  .offset-5-tablet {
+    margin-left: 41.66667%; } }
+
+.column-6 {
+  flex-basis: 50%;
+  max-width: 50%; }
+
+.offset-6 {
+  margin-left: 50%; }
+
+@media all and (min-width: 450px) {
+  .column-6-mobile {
+    flex-basis: 50%;
+    max-width: 50%; } }
+
+@media all and (min-width: 450px) {
+  .offset-6-mobile {
+    margin-left: 50%; } }
+
+@media all and (min-width: 700px) {
+  .column-6-tablet {
+    flex-basis: 50%;
+    max-width: 50%; } }
+
+@media all and (min-width: 700px) {
+  .offset-6-tablet {
+    margin-left: 50%; } }
+
+.column-7 {
+  flex-basis: 58.33333%;
+  max-width: 58.33333%; }
+
+.offset-7 {
+  margin-left: 58.33333%; }
+
+@media all and (min-width: 450px) {
+  .column-7-mobile {
+    flex-basis: 58.33333%;
+    max-width: 58.33333%; } }
+
+@media all and (min-width: 450px) {
+  .offset-7-mobile {
+    margin-left: 58.33333%; } }
+
+@media all and (min-width: 700px) {
+  .column-7-tablet {
+    flex-basis: 58.33333%;
+    max-width: 58.33333%; } }
+
+@media all and (min-width: 700px) {
+  .offset-7-tablet {
+    margin-left: 58.33333%; } }
+
+.column-8 {
+  flex-basis: 66.66667%;
+  max-width: 66.66667%; }
+
+.offset-8 {
+  margin-left: 66.66667%; }
+
+@media all and (min-width: 450px) {
+  .column-8-mobile {
+    flex-basis: 66.66667%;
+    max-width: 66.66667%; } }
+
+@media all and (min-width: 450px) {
+  .offset-8-mobile {
+    margin-left: 66.66667%; } }
+
+@media all and (min-width: 700px) {
+  .column-8-tablet {
+    flex-basis: 66.66667%;
+    max-width: 66.66667%; } }
+
+@media all and (min-width: 700px) {
+  .offset-8-tablet {
+    margin-left: 66.66667%; } }
+
+.column-9 {
+  flex-basis: 75%;
+  max-width: 75%; }
+
+.offset-9 {
+  margin-left: 75%; }
+
+@media all and (min-width: 450px) {
+  .column-9-mobile {
+    flex-basis: 75%;
+    max-width: 75%; } }
+
+@media all and (min-width: 450px) {
+  .offset-9-mobile {
+    margin-left: 75%; } }
+
+@media all and (min-width: 700px) {
+  .column-9-tablet {
+    flex-basis: 75%;
+    max-width: 75%; } }
+
+@media all and (min-width: 700px) {
+  .offset-9-tablet {
+    margin-left: 75%; } }
+
+.column-10 {
+  flex-basis: 83.33333%;
+  max-width: 83.33333%; }
+
+.offset-10 {
+  margin-left: 83.33333%; }
+
+@media all and (min-width: 450px) {
+  .column-10-mobile {
+    flex-basis: 83.33333%;
+    max-width: 83.33333%; } }
+
+@media all and (min-width: 450px) {
+  .offset-10-mobile {
+    margin-left: 83.33333%; } }
+
+@media all and (min-width: 700px) {
+  .column-10-tablet {
+    flex-basis: 83.33333%;
+    max-width: 83.33333%; } }
+
+@media all and (min-width: 700px) {
+  .offset-10-tablet {
+    margin-left: 83.33333%; } }
+
+.column-11 {
+  flex-basis: 91.66667%;
+  max-width: 91.66667%; }
+
+.offset-11 {
+  margin-left: 91.66667%; }
+
+@media all and (min-width: 450px) {
+  .column-11-mobile {
+    flex-basis: 91.66667%;
+    max-width: 91.66667%; } }
+
+@media all and (min-width: 450px) {
+  .offset-11-mobile {
+    margin-left: 91.66667%; } }
+
+@media all and (min-width: 700px) {
+  .column-11-tablet {
+    flex-basis: 91.66667%;
+    max-width: 91.66667%; } }
+
+@media all and (min-width: 700px) {
+  .offset-11-tablet {
+    margin-left: 91.66667%; } }
+
+.column-12 {
+  flex-basis: 100%;
+  max-width: 100%; }
+
+.offset-12 {
+  margin-left: 100%; }
+
+@media all and (min-width: 450px) {
+  .column-12-mobile {
+    flex-basis: 100%;
+    max-width: 100%; } }
+
+@media all and (min-width: 450px) {
+  .offset-12-mobile {
+    margin-left: 100%; } }
+
+@media all and (min-width: 700px) {
+  .column-12-tablet {
+    flex-basis: 100%;
+    max-width: 100%; } }
+
+@media all and (min-width: 700px) {
+  .offset-12-tablet {
+    margin-left: 100%; } }
+
+@media all and (min-width: 950px) {
+  .column-0-laptop {
+    flex-basis: 0%;
+    max-width: 0%; } }
+
+@media all and (min-width: 950px) {
+  .offset-0-laptop {
+    margin-left: 0%; } }
+
+@media all and (min-width: 950px) {
+  .column-1-laptop {
+    flex-basis: 8.33333%;
+    max-width: 8.33333%; } }
+
+@media all and (min-width: 950px) {
+  .offset-1-laptop {
+    margin-left: 8.33333%; } }
+
+@media all and (min-width: 950px) {
+  .column-2-laptop {
+    flex-basis: 16.66667%;
+    max-width: 16.66667%; } }
+
+@media all and (min-width: 950px) {
+  .offset-2-laptop {
+    margin-left: 16.66667%; } }
+
+@media all and (min-width: 950px) {
+  .column-3-laptop {
+    flex-basis: 25%;
+    max-width: 25%; } }
+
+@media all and (min-width: 950px) {
+  .offset-3-laptop {
+    margin-left: 25%; } }
+
+@media all and (min-width: 950px) {
+  .column-4-laptop {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%; } }
+
+@media all and (min-width: 950px) {
+  .offset-4-laptop {
+    margin-left: 33.33333%; } }
+
+@media all and (min-width: 950px) {
+  .column-5-laptop {
+    flex-basis: 41.66667%;
+    max-width: 41.66667%; } }
+
+@media all and (min-width: 950px) {
+  .offset-5-laptop {
+    margin-left: 41.66667%; } }
+
+@media all and (min-width: 950px) {
+  .column-6-laptop {
+    flex-basis: 50%;
+    max-width: 50%; } }
+
+@media all and (min-width: 950px) {
+  .offset-6-laptop {
+    margin-left: 50%; } }
+
+@media all and (min-width: 950px) {
+  .column-7-laptop {
+    flex-basis: 58.33333%;
+    max-width: 58.33333%; } }
+
+@media all and (min-width: 950px) {
+  .offset-7-laptop {
+    margin-left: 58.33333%; } }
+
+@media all and (min-width: 950px) {
+  .column-8-laptop {
+    flex-basis: 66.66667%;
+    max-width: 66.66667%; } }
+
+@media all and (min-width: 950px) {
+  .offset-8-laptop {
+    margin-left: 66.66667%; } }
+
+@media all and (min-width: 950px) {
+  .column-9-laptop {
+    flex-basis: 75%;
+    max-width: 75%; } }
+
+@media all and (min-width: 950px) {
+  .offset-9-laptop {
+    margin-left: 75%; } }
+
+@media all and (min-width: 950px) {
+  .column-10-laptop {
+    flex-basis: 83.33333%;
+    max-width: 83.33333%; } }
+
+@media all and (min-width: 950px) {
+  .offset-10-laptop {
+    margin-left: 83.33333%; } }
+
+@media all and (min-width: 950px) {
+  .column-11-laptop {
+    flex-basis: 91.66667%;
+    max-width: 91.66667%; } }
+
+@media all and (min-width: 950px) {
+  .offset-11-laptop {
+    margin-left: 91.66667%; } }
+
+@media all and (min-width: 950px) {
+  .column-12-laptop {
+    flex-basis: 100%;
+    max-width: 100%; } }
+
+@media all and (min-width: 950px) {
+  .offset-12-laptop {
+    margin-left: 100%; } }
+
+/* =========================================
+Visibility
+========================================= */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+  .visuallyhidden.visuallyhidden--no-js {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; }
+    .no-js .visuallyhidden.visuallyhidden--no-js {
+      clip: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      position: static;
+      width: auto; }
+  .visuallyhidden.visuallyhidden--focusable {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; }
+    .visuallyhidden.visuallyhidden--focusable:active, .visuallyhidden.visuallyhidden--focusable:focus {
+      clip: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      position: static;
+      width: auto; }
+
+@media all and (min-width: 700px) {
+  .clearvisuallyhidden--tablet {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto; } }
+
+.padded-x {
+  padding-left: 16px;
+  padding-right: 16px; }
+  @media all and (min-width: 700px) {
+    .padded-x {
+      padding-left: 24px;
+      padding-right: 24px; } }
+
+/**
+ * Typography Styles
+ */
+/* =========================================
+Basic/Global Typography
+========================================= */
+body,
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center; }
+
+.serif {
+  font-family: serif !important; }
+
+b,
+strong,
+.font-weight-bold,
+.strong {
+  font-weight: 700 !important; }
+
+.format {
+  text-align: left; }
+  .format p,
+  .format h1,
+  .format .alpha,
+  .format h2,
+  .format .beta,
+  .format h3,
+  .format .gamma,
+  .format h4,
+  .format .delta,
+  .format h5,
+  .format .epsilon,
+  .format h6 {
+    padding-bottom: 16px; }
+
+/* =========================================
+Heading Typography
+========================================= */
+h1, .alpha,
+h2,
+.beta,
+h3,
+.gamma,
+h4,
+.delta,
+h5,
+.epsilon,
+h6 {
+  text-rendering: optimizeLegibility;
+  color: #231D24;
+  font-weight: 700;
+  margin: 0;
+  padding: 0; }
+  h1.secondary, .secondary.alpha,
+  h2.secondary,
+  .secondary.beta,
+  h3.secondary,
+  .secondary.gamma,
+  h4.secondary,
+  .secondary.delta,
+  h5.secondary,
+  .secondary.epsilon,
+  h6.secondary {
+    color: #231D24; }
+
+h1, .alpha {
+  font-family: serif;
+  font-size: 1em;
+  font-weight: 400; }
+  @media all and (min-width: 700px) {
+    h1, .alpha {
+      font-size: 1em; } }
+
+h2, .beta {
+  font-family: serif;
+  font-size: 1em;
+  font-weight: 400; }
+  @media all and (min-width: 700px) {
+    h2, .beta {
+      font-size: 1em; } }
+
+h3, .gamma {
+  font-size: 1em; }
+
+h4, .delta {
+  font-size: 1em; }
+
+h5, .epsilon {
+  font-size: 1em;
+  font-weight: 400; }
+
+h6 {
+  font-size: 1em;
+  font-family: serif; }
+
+/* =========================================
+Paragraph Typography
+========================================= */
+p,
+.p {
+  color: #231D24;
+  margin: 0;
+  padding: 0 0 16px; }
+  p.secondary,
+  .p.secondary {
+    color: #231D24; }
+
+.secondary {
+  color: #231D24; }
+
+.p--small > p,
+.p--small,
+p.p--small {
+  font-size: 0.75em; }
+
+.p--large > p,
+.p--large,
+p.p--large {
+  padding: 0 0 32px; }
+  @media all and (min-width: 700px) {
+    .p--large > p,
+    .p--large,
+    p.p--large {
+      font-size: 1.125em; } }
+
+/**
+ * Atoms Styles
+ */
+/* =========================================
+Links/Anchor Component
+========================================= */
+a,
+.link {
+  display: inline-block;
+  outline: none;
+  color: inherit;
+  text-decoration: inherit;
+  color: #231D24;
+  font-weight: 400;
+  transition: all 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  position: relative; }
+  a:hover, a:focus, a.is-active,
+  .link:hover,
+  .link:focus,
+  .link.is-active {
+    color: #231D24; }
+  a.is-active:focus, a.is-active:hover,
+  .link.is-active:focus,
+  .link.is-active:hover {
+    color: #231D24; }
+
+.brand {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: sans-serif; }
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+/* =========================================
+Images/Videos/Iframes
+========================================= */
+figure {
+  margin: 0;
+  padding: 0 0 0; }
+
+img,
+iframe,
+video {
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+img {
+  display: block;
+  height: auto;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+
+img:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "We're sorry, this image could not be located";
+  display: block; }
+
+img:after {
+  content: "(url: " attr(src) ")";
+  display: block;
+  font-size: 12px; }
+
+/**
+ * LazyLoad
+ */
+.ratio-container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .ratio-container img,
+  .ratio-container iframe,
+  .ratio-container object,
+  .ratio-container embed,
+  .ratio-container video {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block; }
+
+.lazyload,
+.lazyloading {
+  opacity: 0; }
+
+.lazyloaded {
+  opacity: 1; }
+
+.curtain {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  pointer-events: none;
+  will-change: opacity; }
+
+.curtain__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: orange;
+  overflow: hidden; }
+
+/**
+ * Organisms Styles
+ */
+.header {
+  z-index: 4;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  transition: all 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: none;
+  height: 56px; }
+  @media all and (min-width: 700px) {
+    .header {
+      height: 80px; } }
+  .header a {
+    pointer-events: auto; }
+
+/**
+ * Template Styles
+ */
+.projects {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; }
+
+/**
+ * Shame Styles
+ * Obviously keep this to a minimum
+ */

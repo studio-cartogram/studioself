@@ -1,0 +1,34 @@
+/* =========================================
+Paragraph Typography
+========================================= */
+
+p,
+.p {
+  color: $ca-paragraph-color;
+  margin: 0;
+  padding: 0 0 $d-duo;
+
+  &.secondary {
+    color: $ca-paragraph-secondary-color;
+  }
+}
+
+.secondary {
+  color: $ca-paragraph-secondary-color;
+}
+
+.p--small > p,
+.p--small,
+p.p--small {
+  font-size: $t-font-size-p-small;
+}
+
+
+.p--large > p,
+.p--large,
+p.p--large {
+  padding: 0 0 $d-quad;
+  @include bp($bp-tablet) {
+    font-size: $t-font-size-p-large;
+  }
+}

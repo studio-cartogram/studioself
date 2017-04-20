@@ -1,0 +1,13 @@
+/* =========================================
+Grid Item
+========================================= */
+
+@mixin grid-item($size, $total) {
+  flex-basis: $size * (100% / $total);
+  max-width: $size * (100% / $total);
+}
+
+@mixin grid-item-offset($size, $total) {
+  margin-left: $size * (100% / $total);
+}
+
