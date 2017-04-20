@@ -1603,6 +1603,9 @@ img:after {
   align-items: flex-end;
   justify-content: center; }
 
+.project__project {
+  max-width: 25%; }
+
 /**
  * Shame Styles
  * Obviously keep this to a minimum

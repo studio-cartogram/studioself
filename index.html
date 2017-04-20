@@ -20,6 +20,8 @@ layout: default
 
       <article class="project__project">
 
+        <img src="{{ project.thumbnail.image }}" />
+
         <a class="project__link" href="{{ project.url | prepend: site.baseurl }}">
 
           {{ project.title }}
