@@ -29,5 +29,5 @@ defaults:
     type: projects
   values:
     thumbnail:
-      image:
+      image: 
 permalink: pretty
