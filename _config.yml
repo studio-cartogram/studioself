@@ -2,6 +2,9 @@
 title: Studio Self
 timezone: UTC
 collections:
+  posts:
+    title: Posts
+    output: true
   projects:
     title: Projects
     output: true
@@ -19,7 +22,7 @@ defaults:
     path: ''
     type: projects
   values:
-    layout: "project"
+    layout: project
     thumbnail:
       image: 
 permalink: pretty
