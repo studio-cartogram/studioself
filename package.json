@@ -67,6 +67,7 @@
     "babel-polyfill": "6.23.0",
     "barba.js": "^1.0.0",
     "color": "^1.0.3",
+    "imagesloaded": "^4.1.1",
     "lazysizes": "^3.0.0",
     "lodash": "^4.17.4"
   }

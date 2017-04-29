@@ -16,12 +16,12 @@ const paths = require('./common').paths
 module.exports = deepMerge({
   paths: {
     watch: [
-      `${paths.theme.src}/scss_partials/**/*.scss`,
-      `!${paths.theme.src}/scss_partials/**/*_tmp\\d+.scss`,
+      `${paths.theme.src}/_sass/**/*.scss`,
+      `!${paths.theme.src}/_sass/**/*_tmp\\d+.scss`,
     ],
     src: [
-      `${paths.theme.src}/scss_partials/**/*.scss`,
-      `!${paths.theme.src}/scss_partials/**/*_tmp\\d+.scss`,
+      `${paths.theme.src}/_sass/**/*.scss`,
+      `!${paths.theme.src}/_sass/**/*_tmp\\d+.scss`,
     ]
   },
 }, overrides)

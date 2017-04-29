@@ -13,7 +13,7 @@ const overrides = require('../../config/common')
 module.exports = deepMerge({
   paths: {
     theme: {
-      src: 'templates',
+      src: './',
     },
     assets: {
       src: 'src',
