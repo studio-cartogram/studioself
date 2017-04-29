@@ -8,8 +8,15 @@ Typography
  *
  */
 
+
+@font-face {
+  font-family: 'Folioself';
+  src: url($p-fonts + 'folioself-book-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url($p-fonts + 'folioself-book-webfont.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
 $t-em-base: 16;
-$t-font-family: sans-serif;
+$t-font-family: 'Folioself', serif;
 $t-font-family-serif: serif;
 
 $t-font-weight-regular: 400;

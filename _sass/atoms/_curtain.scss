@@ -18,6 +18,9 @@
   margin: 0;
   background: $ca-curtain-background;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 

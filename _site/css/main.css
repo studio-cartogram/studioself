@@ -45,6 +45,10 @@ Typography
  * autocomplete
  *
  */
+@font-face {
+  font-family: 'Folioself';
+  src: url("../fonts/folioself-book-webfont.woff2") format("woff2"), url("../fonts/folioself-book-webfont.woff") format("woff");
+  /* Pretty Modern Browsers */ }
 /* =========================================
 Dimensions
 ========================================= */
@@ -1394,7 +1398,7 @@ h6 {
     color: #231D24; }
 
 h1, .alpha {
-  font-family: serif;
+  font-family: "Folioself", serif;
   font-size: 1em;
   font-weight: 400; }
   @media all and (min-width: 700px) {
@@ -1482,7 +1486,7 @@ a,
 .brand {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: sans-serif; }
+  font-family: "Folioself", serif; }
 
 .title {
   position: absolute;
@@ -1572,13 +1576,16 @@ img:after {
   height: 100%;
   margin: 0;
   background: orange;
-  overflow: hidden; }
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 /**
  * Organisms Styles
  */
 .header {
-  z-index: 4;
+  z-index: 2;
   overflow: hidden;
   position: absolute;
   width: 100%;
