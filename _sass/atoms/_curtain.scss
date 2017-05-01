@@ -23,5 +23,40 @@
   justify-content: center;
 }
 
+.curtain__swoosh {
+  opacity: 0;
+}
 
+.curtain__text {
+  font-size: calc(100% + 3vw);
+  padding:0 $d-sex;
+  color: $ca-curtain-text-color;
+}
 
+.curtain--is-shown .curtain__swoosh {
+	opacity: 1;
+  animation: swooshShow $a-timing forwards;
+}
+
+@keyframes swooshShow {
+  from {
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.curtain--is-hidden .curtain__swoosh {
+  opacity: 1;
+  animation: swooshHide $a-timing forwards;
+}
+
+@keyframes swooshHide {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -100%, 0);
+  }
+}

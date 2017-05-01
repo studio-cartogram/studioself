@@ -47,8 +47,13 @@ Typography
  */
 @font-face {
   font-family: 'Folioself';
-  src: url("../fonts/folioself-book-webfont.woff2") format("woff2"), url("../fonts/folioself-book-webfont.woff") format("woff");
-  /* Pretty Modern Browsers */ }
+  src: url("../fonts/folioself-book-webfont.woff2") format("woff2"), url("../fonts/folioself-book-webfont.woff") format("woff"); }
+@font-face {
+  font-family: 'TimesTen';
+  src: url("../fonts/TimesTenLTStd-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'TimesTenItalic';
+  src: url("../fonts/TimesTenLTStd-Italic.woff") format("woff"); }
 /* =========================================
 Dimensions
 ========================================= */
@@ -1337,13 +1342,13 @@ body,
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: serif;
+  font-family: "TimesTenItalic", serif;
   font-size: 16px;
   line-height: 1.5;
   text-align: center; }
 
 .serif {
-  font-family: serif !important; }
+  font-family: "TimesTenItalic", serif !important; }
 
 b,
 strong,
@@ -1398,7 +1403,7 @@ h6 {
     color: #231D24; }
 
 h1, .alpha {
-  font-family: "Folioself", serif;
+  font-family: "Folioself", sans;
   font-size: 1em;
   font-weight: 400; }
   @media all and (min-width: 700px) {
@@ -1406,7 +1411,7 @@ h1, .alpha {
       font-size: 1em; } }
 
 h2, .beta {
-  font-family: serif;
+  font-family: "TimesTenItalic", serif;
   font-size: 1em;
   font-weight: 400; }
   @media all and (min-width: 700px) {
@@ -1425,7 +1430,7 @@ h5, .epsilon {
 
 h6 {
   font-size: 1em;
-  font-family: serif; }
+  font-family: "TimesTenItalic", serif; }
 
 /* =========================================
 Paragraph Typography
@@ -1486,7 +1491,7 @@ a,
 .brand {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: "Folioself", serif; }
+  font-family: "Folioself", sans; }
 
 .title {
   position: absolute;
@@ -1575,12 +1580,38 @@ img:after {
   width: 100%;
   height: 100%;
   margin: 0;
-  background: orange;
+  background: #FF5500;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center; }
 
+.curtain__swoosh {
+  opacity: 0; }
+
+.curtain__text {
+  font-size: calc(100% + 3vw);
+  padding: 0 48px;
+  color: #FFFFFF; }
+
+.curtain--is-shown .curtain__swoosh {
+  opacity: 1;
+  animation: swooshShow 400ms forwards; }
+
+@keyframes swooshShow {
+  from {
+    transform: translate3d(0, -100%, 0); }
+  to {
+    transform: translate3d(0, 0, 0); } }
+.curtain--is-hidden .curtain__swoosh {
+  opacity: 1;
+  animation: swooshHide 400ms forwards; }
+
+@keyframes swooshHide {
+  from {
+    transform: translate3d(0, 0, 0); }
+  to {
+    transform: translate3d(0, -100%, 0); } }
 /**
  * Organisms Styles
  */
