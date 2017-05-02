@@ -29,6 +29,18 @@ strong,
 
 .format {
   text-align: left;
+
+  li,
+  ul {
+    &,
+    & > p {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  }
+
+  ul,
   p,
   h1,
   h2,
