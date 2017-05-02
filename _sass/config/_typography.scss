@@ -8,9 +8,27 @@ Typography
  *
  */
 
+
+@font-face {
+  font-family: 'Folioself';
+  src: url($p-fonts + 'folioself-book-webfont.woff2') format('woff2'),
+       url($p-fonts + 'folioself-book-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'TimesTen';
+  src: url($p-fonts + 'TimesTenLTStd-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'TimesTenItalic';
+  src: url($p-fonts + 'TimesTenLTStd-Italic.woff') format('woff');
+}
+
+
 $t-em-base: 16;
-$t-font-family: sans-serif;
-$t-font-family-serif: serif;
+$t-font-family: 'Folioself', sans;
+$t-font-family-serif: 'TimesTenItalic', serif;
 
 $t-font-weight-regular: 400;
 $t-font-weight-bold: 700;

@@ -14,7 +14,7 @@ Color Index
 
 $c-black: #231D24;
 $c-white: #FFFFFF;
-$c-orange: orange;
+$c-orange: #FF5500;
 
 /* =========================================
 Colors Applied
@@ -32,6 +32,7 @@ Colors Applied
 
 $ca-site-background: $c-white;
 $ca-curtain-background: $c-orange;
+$ca-curtain-text-color: $c-white;
 
 $ca-anchor-color: $c-black;
 $ca-anchor-hover-color: $c-black;
