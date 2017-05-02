@@ -3,7 +3,7 @@ Links/Anchor Component
 ========================================= */
 
 a,
-.link {
+.anchor__target {
   display: inline-block;
   outline: none;
   color: inherit;
@@ -13,10 +13,27 @@ a,
   transition: all $a-timing $a-easing;
   position: relative;
 
+  & > .anchor__target:after,
+  &:not(.anchor--with-target):after {
+    content: '';
+    position: absolute;
+    top: auto;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: currentColor;
+    opacity: 0;
+  }
+
   &:hover,
   &:focus,
   &.is-active {
     color: $ca-anchor-hover-color;
+    & > .anchor__target:after,
+    &:after {
+      opacity: 1;
+    }
   }
 
   &.is-active {

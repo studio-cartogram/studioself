@@ -10,6 +10,7 @@
   justify-content: space-between;
   pointer-events: none;
   height: $d-header-height-mobile;
+  padding-bottom: $d-quad;
   @include bp($bp-tablet) {
     height: $d-header-height;
   }
