@@ -17,18 +17,21 @@ Typography
 
 @font-face {
   font-family: 'TimesTen';
-  src: url($p-fonts + 'TimesTenLTStd-Regular.woff') format('woff');
+  src: url($p-fonts + '339F45_0_0.woff2') format('woff2'),
+       url($p-fonts + '339F45_0_0.woff') format('woff');
 }
 
 @font-face {
   font-family: 'TimesTenItalic';
-  src: url($p-fonts + 'TimesTenLTStd-Italic.woff') format('woff');
+  src: url($p-fonts + '339F45_1_0.woff2') format('woff2'),
+       url($p-fonts + '339F45_1_0.woff') format('woff');
 }
 
 
 $t-em-base: 16;
 $t-font-family: 'Folioself', sans;
-$t-font-family-serif: 'TimesTenItalic', serif;
+$t-font-family-serif: 'TimesTen', serif;
+$t-font-family-serif-italic: 'TimesTenItalic', serif;
 
 $t-font-weight-regular: 400;
 $t-font-weight-bold: 700;

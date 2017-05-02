@@ -50,10 +50,10 @@ Typography
   src: url("../fonts/folioself-book-webfont.woff2") format("woff2"), url("../fonts/folioself-book-webfont.woff") format("woff"); }
 @font-face {
   font-family: 'TimesTen';
-  src: url("../fonts/TimesTenLTStd-Regular.woff") format("woff"); }
+  src: url("../fonts/339F45_0_0.woff2") format("woff2"), url("../fonts/339F45_0_0.woff") format("woff"); }
 @font-face {
   font-family: 'TimesTenItalic';
-  src: url("../fonts/TimesTenLTStd-Italic.woff") format("woff"); }
+  src: url("../fonts/339F45_1_0.woff2") format("woff2"), url("../fonts/339F45_1_0.woff") format("woff"); }
 /* =========================================
 Dimensions
 ========================================= */
@@ -1350,19 +1350,23 @@ body,
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "TimesTenItalic", serif;
+  font-family: "TimesTen", serif;
   font-size: 20px;
   line-height: 1.5;
   text-align: center; }
 
 .serif {
-  font-family: "TimesTenItalic", serif !important; }
+  font-family: "TimesTen", serif !important; }
 
 b,
 strong,
 .font-weight-bold,
 .strong {
   font-weight: 700 !important; }
+
+em,
+i {
+  font-family: "TimesTenItalic", serif !important; }
 
 .format {
   text-align: left; }
@@ -1426,7 +1430,7 @@ h1, .alpha {
       font-size: 1em; } }
 
 h2, .beta {
-  font-family: "TimesTenItalic", serif;
+  font-family: "TimesTen", serif;
   font-size: 1em;
   font-weight: 400; }
   @media all and (min-width: 700px) {
@@ -1445,7 +1449,7 @@ h5, .epsilon {
 
 h6 {
   font-size: 1em;
-  font-family: "TimesTenItalic", serif; }
+  font-family: "TimesTen", serif; }
 
 /* =========================================
 Paragraph Typography
