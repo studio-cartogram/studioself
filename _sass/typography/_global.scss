@@ -26,6 +26,11 @@ strong,
   font-weight: $t-font-weight-bold !important;
 }
 
+em,
+i {
+  font-family: $t-font-family-serif-italic !important
+}
+
 
 .format {
   text-align: left;
