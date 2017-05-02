@@ -793,10 +793,10 @@ body {
 .main {
   flex: 1;
   transition: all 400ms 400ms cubic-bezier(0.23, 1, 0.32, 1);
-  padding-top: 56px; }
+  padding-top: 80px; }
   @media all and (min-width: 700px) {
     .main {
-      padding-top: 80px; } }
+      padding-top: 96px; } }
   .js-is-initialized .main {
     opacity: 1; }
   .js-is-loading .main {
@@ -1324,6 +1324,14 @@ Visibility
     position: static;
     width: auto; } }
 
+.padded-y {
+  padding-top: 16px;
+  padding-bottom: 16px; }
+  @media all and (min-width: 700px) {
+    .padded-y {
+      padding-top: 24px;
+      padding-bottom: 24px; } }
+
 .padded-x {
   padding-left: 16px;
   padding-right: 16px; }
@@ -1343,7 +1351,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "TimesTenItalic", serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   text-align: center; }
 
@@ -1469,7 +1477,7 @@ p.p--large {
 Links/Anchor Component
 ========================================= */
 a,
-.link {
+.anchor__target {
   display: inline-block;
   outline: none;
   color: inherit;
@@ -1478,26 +1486,46 @@ a,
   font-weight: 400;
   transition: all 400ms cubic-bezier(0.23, 1, 0.32, 1);
   position: relative; }
+  a > .anchor__target:after, a:not(.anchor--with-target):after,
+  .anchor__target > .anchor__target:after,
+  .anchor__target:not(.anchor--with-target):after {
+    content: '';
+    position: absolute;
+    top: auto;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: currentColor;
+    opacity: 0; }
   a:hover, a:focus, a.is-active,
-  .link:hover,
-  .link:focus,
-  .link.is-active {
+  .anchor__target:hover,
+  .anchor__target:focus,
+  .anchor__target.is-active {
     color: #231D24; }
+    a:hover > .anchor__target:after, a:hover:after, a:focus > .anchor__target:after, a:focus:after, a.is-active > .anchor__target:after, a.is-active:after,
+    .anchor__target:hover > .anchor__target:after,
+    .anchor__target:hover:after,
+    .anchor__target:focus > .anchor__target:after,
+    .anchor__target:focus:after,
+    .anchor__target.is-active > .anchor__target:after,
+    .anchor__target.is-active:after {
+      opacity: 1; }
   a.is-active:focus, a.is-active:hover,
-  .link.is-active:focus,
-  .link.is-active:hover {
+  .anchor__target.is-active:focus,
+  .anchor__target.is-active:hover {
     color: #231D24; }
 
 .brand {
   text-transform: uppercase;
-  letter-spacing: 1px;
-  font-family: "Folioself", sans; }
+  letter-spacing: 1px; }
 
 .title {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  padding-bottom: 32px; }
 
 /* =========================================
 Images/Videos/Iframes
@@ -1518,7 +1546,8 @@ img {
   height: auto;
   position: relative;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  max-width: 100%; }
 
 img:before {
   position: absolute;
@@ -1533,35 +1562,9 @@ img:after {
   display: block;
   font-size: 12px; }
 
-/**
- * LazyLoad
- */
-.ratio-container {
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .ratio-container img,
-  .ratio-container iframe,
-  .ratio-container object,
-  .ratio-container embed,
-  .ratio-container video {
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    display: block; }
-
-.lazyload,
-.lazyloading {
-  opacity: 0; }
-
-.lazyloaded {
-  opacity: 1; }
+@media all and (min-width: 700px) {
+  .format img {
+    padding: 0 12% 80px; } }
 
 .curtain {
   position: fixed;
@@ -1612,6 +1615,12 @@ img:after {
     transform: translate3d(0, 0, 0); }
   to {
     transform: translate3d(0, -100%, 0); } }
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
 /**
  * Organisms Styles
  */
@@ -1626,12 +1635,16 @@ img:after {
   align-items: center;
   justify-content: space-between;
   pointer-events: none;
-  height: 56px; }
+  height: 80px;
+  padding-bottom: 32px; }
   @media all and (min-width: 700px) {
     .header {
-      height: 80px; } }
+      height: 96px; } }
   .header a {
     pointer-events: auto; }
+
+.nextprev {
+  text-align: left; }
 
 /**
  * Template Styles
@@ -1650,6 +1663,9 @@ img:after {
   @media all and (min-width: 950px) {
     .project__project {
       max-width: 30%; } }
+
+.project__image {
+  padding-bottom: 8px; }
 
 .project__link {
   display: block;

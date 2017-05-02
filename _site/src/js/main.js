@@ -22,23 +22,21 @@ class App {
     log('starting app')
     document.body.classList.add('js-is-initialized')
     this.init()
-    this.curtainEl = document.getElementById('js-curtain')
-    this.curtain = new Curtain(this.curtainEl)
     Barba.Pjax.init()
     Barba.Prefetch.init()
     Barba.Pjax.getTransition = () =>  this.Transition
   }
 
   init = () => {
+    this.curtainEl = document.getElementById('js-curtain')
+    this.curtain = new Curtain(this.curtainEl)
     this.scroll = new Scroll()
     this.fade = new Fade()
     this.initTransitions()
     imagesLoaded( document.querySelector('#js-main'), instance => {
       document.body.classList.remove('js-is-loading')
       log('images loaded')
-      setTimeout(() => {
-        this.curtain.hide()
-      }, 2000)
+      this.curtain.hide()
     })
     Barba.Dispatcher.on('initStateChange', () => {
       document.body.classList.add('js-is-loading')
@@ -59,6 +57,8 @@ class App {
 
   initTransitions = () => {
     const _scrollTop = this.scroll.scrollTop.bind(this)
+    const _showCurtain = this.curtain.show.bind(this)
+    const _hideCurtain = this.curtain.hide.bind(this)
     // const _fadeOut = this.fade.fadeOut.bind(this)
     // const _fadeIn = this.fade.fadeIn.bind(this)
 
@@ -68,14 +68,26 @@ class App {
         .all([
           // _fadeOut(this.oldContainer).finished,
           this.newContainerLoading,
+          this.showCurtain(),
           _scrollTop().finished,
         ])
         .then(this.showNewPage.bind(this))
       },
 
+      showCurtain() {
+        const deferred = Barba.Utils.deferred()
+        _showCurtain(() => {
+          deferred.resolve()
+        })
+
+        return deferred.promise
+      },
+
       showNewPage() {
         // _fadeIn(this.newContainer)
-        this.done()
+        _hideCurtain(() => {
+          this.done()
+        })
       },
     })
   }

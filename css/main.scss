@@ -57,11 +57,13 @@
 @import 'atoms/media';
 @import 'atoms/curtain';
 @import 'atoms/intro';
+@import 'atoms/list';
 
 /**
  * Organisms Styles
  */
 @import 'organisms/header';
+@import 'organisms/nextprev';
 
 /**
  * Template Styles
