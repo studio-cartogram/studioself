@@ -11,8 +11,6 @@ Matthew graduated from the Art Center College of Design in Pasadena, California.
 
 #CONTACT
 
-Matthew Boyd
-
-Email [contact @ studio-self.com](mailto:contact@studio-self.com)
-
-Telephone [1 416 551 6015](tel:14165516015)
+* Matthew Boyd
+* Email [contact @ studio-self.com](mailto:contact@studio-self.com)
+* Telephone [1 416 551 6015](tel:14165516015)
