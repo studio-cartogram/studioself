@@ -9,8 +9,10 @@ Design is simultaneously a process and a result, a business tool and an art form
 
 Matthew graduated from the Art Center College of Design in Pasadena, California. Before joining Concrete he ran an independent practice and worked with artists, publishers, entrepreneurs and businesses of all sizes. Some of his previous clients include Nike, Vans, Now-Again Records, J&L Books, and The Yerba Buena Centre for the Arts. His work has been recognized internationally and his work has been included in publications such as Graphic (Korea). I am always on the look out for new and exciting projects and collaborations. If you think that your project could beneft from my participation in any way, I will be happy to talk to you.
 
-\#CONTACT
+#CONTACT
 
-Mattthew Boyd
+Matthew Boyd
+
 Email [contact @ studio-self.com](mailto:contact@studio-self.com)
+
 Telephone [1 416 551 6015](tel:14165516015)
