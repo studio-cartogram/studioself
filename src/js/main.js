@@ -5,6 +5,7 @@
  *
  */
 import 'babel-polyfill'
+import debounce from 'lodash/debounce'
 import Barba from 'barba.js'
 import log from './utils/log'
 import './vendor/webpack.publicPath'
@@ -13,8 +14,11 @@ import Scroll from './scripts/Scroll'
 import Fade from './scripts/Fade'
 import removeClasses from './utils/removeClasses'
 import imagesLoaded from 'imagesloaded'
+import addListenerMulti from './utils/addListenerMulti'
+
 import {
   ACTIVE_CLASS,
+  SAVER_WAIT_DURATION,
 } from './config'
 
 class App {
@@ -33,11 +37,7 @@ class App {
     this.scroll = new Scroll()
     this.fade = new Fade()
     this.initTransitions()
-    imagesLoaded( document.querySelector('#js-main'), instance => {
-      document.body.classList.remove('js-is-loading')
-      log('images loaded')
-      this.curtain.hide()
-    })
+    this.initSaver()
     Barba.Dispatcher.on('initStateChange', () => {
       document.body.classList.add('js-is-loading')
       document.body.classList.remove('js-is-leaving')
@@ -52,6 +52,11 @@ class App {
     Barba.Dispatcher.on('transitionCompleted', (currentStatus, prevStatus) => {
       document.body.classList.remove('js-is-loading')
       document.body.classList.remove('js-is-leaving')
+      imagesLoaded(document.querySelector('#js-main'), instance => {
+        document.body.classList.remove('js-is-loading')
+        log('images loaded')
+        this.curtain.hide()
+      })
     })
   }
 
@@ -85,11 +90,27 @@ class App {
 
       showNewPage() {
         // _fadeIn(this.newContainer)
-        _hideCurtain(() => {
-          this.done()
-        })
+        this.done()
+        // _hideCurtain(() => {
+        // })
       },
     })
+  }
+
+  saverShown = false
+  initSaver = () => (addListenerMulti(document.body, 'mousemove touchmove', debounce(this.mouseMove, 60)))
+  mouseMove = e => {
+    clearTimeout(this.cursorTimer)
+
+    if (this.saverShown) {
+      this.curtain.hide()
+      this.saverShown = false
+    }
+
+    this.cursorTimer = setTimeout(() => {
+      this.curtain.show()
+      this.saverShown = true
+    }, SAVER_WAIT_DURATION)
   }
 }
 
