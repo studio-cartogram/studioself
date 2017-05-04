@@ -5,6 +5,8 @@ thumbnail:
   image: "/uploads/kelly-sikkema-209680.jpg"
 ---
 
+![Chop_1.jpg](/uploads/Chop_1.jpg)
+![Chop_2.jpg](/uploads/Chop_2.jpg)
 ![Chop_3.jpg](/uploads/Chop_3.jpg)
 ![Chop_4.jpg](/uploads/Chop_4.jpg)
 
