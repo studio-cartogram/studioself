@@ -2,7 +2,7 @@
 title: The Resurrection
 date: 2017-04-20 07:23:00 Z
 thumbnail:
-  image: "/uploads/kelly-sikkema-209680.jpg"
+  image: "/uploads/Chop_1.jpg"
 ---
 
 ![Chop_1.jpg](/uploads/Chop_1.jpg)
