@@ -22,7 +22,7 @@ defaults:
     path: ''
     type: projects
   values:
-    layout: project
+    layout: page
     thumbnail:
       image: 
 permalink: pretty
