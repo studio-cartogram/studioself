@@ -1,5 +1,5 @@
 ---
-title: Away With Melancholy
+title: The Resurrection
 date: 2017-04-20 07:23:00 Z
 thumbnail:
   image: "/uploads/kelly-sikkema-209680.jpg"
