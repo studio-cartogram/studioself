@@ -9,22 +9,22 @@ class Curtain {
 
   show = onComplete => {
     document.body.classList.add('curtain--is-shown')
-    once(this.swoosh, 'animationend', () => {
-      if (onComplete && typeof onComplete === 'function') {
-        onComplete()
-      }
-    })
+    // once(this.swoosh, 'animationend', () => {
+    //   if (onComplete && typeof onComplete === 'function') {
+    //     onComplete()
+    //   }
+    // })
   }
 
   hide = onComplete => {
-    document.body.classList.add('curtain--is-hidden')
-    once(this.swoosh, 'animationend', () => {
-      document.body.classList.remove('curtain--is-shown')
-      document.body.classList.remove('curtain--is-hidden')
-      if (onComplete && typeof onComplete === 'function') {
-        onComplete()
-      }
-    })
+    document.body.classList.remove('curtain--is-shown')
+    // once(this.swoosh, 'animationend', () => {
+    //   document.body.classList.remove('curtain--is-shown')
+    //   document.body.classList.remove('curtain--is-hidden')
+    //   if (onComplete && typeof onComplete === 'function') {
+    //     onComplete()
+    //   }
+    // })
   }
 }
 

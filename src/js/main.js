@@ -38,9 +38,9 @@ class App {
     this.fade = new Fade()
     this.initTransitions()
     this.initSaver()
+    this.loadImages()
     Barba.Dispatcher.on('initStateChange', () => {
-      document.body.classList.add('js-is-loading')
-      document.body.classList.remove('js-is-leaving')
+      document.body.classList.add('js-is-moving')
     })
     Barba.Dispatcher.on('linkClicked', el => {
       const xs = document.getElementsByClassName(ACTIVE_CLASS)
@@ -50,13 +50,14 @@ class App {
       el.classList.add(ACTIVE_CLASS);
     })
     Barba.Dispatcher.on('transitionCompleted', (currentStatus, prevStatus) => {
+      document.body.classList.remove('js-is-moving')
+    })
+  }
+
+  loadImages = () => {
+    imagesLoaded(document.querySelector('#js-main'), instance => {
+      log('images loaded')
       document.body.classList.remove('js-is-loading')
-      document.body.classList.remove('js-is-leaving')
-      imagesLoaded(document.querySelector('#js-main'), instance => {
-        document.body.classList.remove('js-is-loading')
-        log('images loaded')
-        this.curtain.hide()
-      })
     })
   }
 
@@ -73,26 +74,13 @@ class App {
         .all([
           // _fadeOut(this.oldContainer).finished,
           this.newContainerLoading,
-          this.showCurtain(),
           _scrollTop().finished,
         ])
         .then(this.showNewPage.bind(this))
       },
 
-      showCurtain() {
-        const deferred = Barba.Utils.deferred()
-        _showCurtain(() => {
-          deferred.resolve()
-        })
-
-        return deferred.promise
-      },
-
       showNewPage() {
-        // _fadeIn(this.newContainer)
         this.done()
-        // _hideCurtain(() => {
-        // })
       },
     })
   }
