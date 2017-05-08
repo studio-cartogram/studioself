@@ -10,8 +10,8 @@ import Barba from 'barba.js'
 import log from './utils/log'
 import './vendor/webpack.publicPath'
 import Curtain from './scripts/Curtain'
-import Scroll from './scripts/Scroll'
-import Fade from './scripts/Fade'
+// import Scroll from './scripts/Scroll'
+// import Fade from './scripts/Fade'
 import removeClasses from './utils/removeClasses'
 import imagesLoaded from 'imagesloaded'
 import addListenerMulti from './utils/addListenerMulti'
@@ -34,8 +34,8 @@ class App {
   init = () => {
     this.curtainEl = document.getElementById('js-curtain')
     this.curtain = new Curtain(this.curtainEl)
-    this.scroll = new Scroll()
-    this.fade = new Fade()
+    // this.scroll = new Scroll()
+    // this.fade = new Fade()
     this.initTransitions()
     this.initSaver()
     this.loadImages()
@@ -62,9 +62,9 @@ class App {
   }
 
   initTransitions = () => {
-    const _scrollTop = this.scroll.scrollTop.bind(this)
-    const _showCurtain = this.curtain.show.bind(this)
-    const _hideCurtain = this.curtain.hide.bind(this)
+    // const _scrollTop = this.scroll.scrollTop.bind(this)
+    // const _showCurtain = this.curtain.show.bind(this)
+    // const _hideCurtain = this.curtain.hide.bind(this)
     // const _fadeOut = this.fade.fadeOut.bind(this)
     // const _fadeIn = this.fade.fadeIn.bind(this)
 
@@ -72,14 +72,13 @@ class App {
       start() {
         Promise
         .all([
-          // _fadeOut(this.oldContainer).finished,
           this.newContainerLoading,
-          _scrollTop().finished,
         ])
         .then(this.showNewPage.bind(this))
       },
 
       showNewPage() {
+        document.body.scrollTop = 0
         this.done()
       },
     })

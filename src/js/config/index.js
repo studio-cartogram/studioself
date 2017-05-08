@@ -1,8 +1,8 @@
 const ACTIVE_CLASS = 'is-active'
-const TRANSITION_DURATION = 400
+const TRANSITION_DURATION = 200
 const TRANSITION_EASING = 'easeInOutCubic'
 const MAIN_ELEMENT_ID = 'main'
-const SAVER_WAIT_DURATION = 5000
+const SAVER_WAIT_DURATION = 30000
 
 export {
   MAIN_ELEMENT_ID,

@@ -4,7 +4,8 @@ class Curtain {
   constructor(el) {
     if (!el) return null
     this.curtain = el
-    this.swoosh = el.querySelector('.js-curtain__swoosh')
+    // this.swoosh = el.querySelector('.js-curtain__swoosh')
+    el.addEventListener('click', this.hide)
   }
 
   show = onComplete => {

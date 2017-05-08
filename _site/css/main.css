@@ -1529,7 +1529,12 @@ a,
 
 .brand {
   text-transform: uppercase;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  padding-bottom: 32px; }
 
 .title {
   position: absolute;
@@ -1589,7 +1594,9 @@ img:after {
   will-change: opacity;
   opacity: 0; }
   .js-is-loading .curtain, .curtain--is-shown .curtain {
-    opacity: 1; }
+    opacity: 1;
+    pointer-events: auto;
+    cursor: pointer; }
 
 .curtain__inner {
   position: absolute;
@@ -1622,6 +1629,7 @@ img:after {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  justify-content: flex-end;
   pointer-events: none;
   height: 80px;
   padding-bottom: 32px; }

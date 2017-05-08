@@ -13,6 +13,8 @@
   .js-is-loading &,
   .curtain--is-shown & {
     opacity: 1;
+    pointer-events: auto;
+    cursor: pointer;
   }
 
 }
