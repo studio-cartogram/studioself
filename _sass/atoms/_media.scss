@@ -40,7 +40,11 @@ img:after {
 }
 
 .format img {
+  padding: 0 0 $d-dec;
   @include bp($bp-tablet) {
-    padding: 0 12% $d-dec;
+    padding: 0 15% $d-dec;
+  }
+  @include bp($bp-desktop) {
+    padding: 0 20% $d-dec;
   }
 }
