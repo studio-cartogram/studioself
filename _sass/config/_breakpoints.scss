@@ -5,12 +5,16 @@ Breakpoints
  * Prefix breakpoints with $b_
  * You can use the 'bp' mixin to
  * easily add breakpoints
+  • 667x375 (Mobile)
+  • 1024x768 
+  • 1440x1024
+  • 1920x1400
  */
 
 $bp-mobile: '(min-width: 450px)';
 
-$bp-tablet: '(min-width: 700px)';
+$bp-tablet: '(min-width: 768px)';
 
-$bp-laptop: '(min-width: 950px)';
+$bp-laptop: '(min-width: 1024px)';
 
-$bp-desktop: '(min-width: 1280px)';
+$bp-desktop: '(min-width: 1440px)';

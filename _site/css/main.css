@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Global Project Specific Variables
  */
@@ -70,6 +71,10 @@ Breakpoints
  * Prefix breakpoints with $b_
  * You can use the 'bp' mixin to
  * easily add breakpoints
+  • 667x375 (Mobile)
+  • 1024x768 
+  • 1440x1024
+  • 1920x1400
  */
 /* =========================================
 Animations
@@ -794,7 +799,7 @@ body {
   flex: 1;
   transition: all 400ms 400ms cubic-bezier(0.23, 1, 0.32, 1);
   padding-top: 80px; }
-  @media all and (min-width: 700px) {
+  @media all and (min-width: 768px) {
     .main {
       padding-top: 96px; } }
   .js-is-initialized .main {
@@ -844,12 +849,12 @@ Grid Component
   .offset-0-mobile {
     margin-left: 0%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .column-0-tablet {
     flex-basis: 0%;
     max-width: 0%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .offset-0-tablet {
     margin-left: 0%; } }
 
@@ -869,12 +874,12 @@ Grid Component
   .offset-1-mobile {
     margin-left: 8.33333%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .column-1-tablet {
     flex-basis: 8.33333%;
     max-width: 8.33333%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .offset-1-tablet {
     margin-left: 8.33333%; } }
 
@@ -894,12 +899,12 @@ Grid Component
   .offset-2-mobile {
     margin-left: 16.66667%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .column-2-tablet {
     flex-basis: 16.66667%;
     max-width: 16.66667%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .offset-2-tablet {
     margin-left: 16.66667%; } }
 
@@ -919,12 +924,12 @@ Grid Component
   .offset-3-mobile {
     margin-left: 25%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .column-3-tablet {
     flex-basis: 25%;
     max-width: 25%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .offset-3-tablet {
     margin-left: 25%; } }
 
@@ -944,12 +949,12 @@ Grid Component
   .offset-4-mobile {
     margin-left: 33.33333%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .column-4-tablet {
     flex-basis: 33.33333%;
     max-width: 33.33333%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .offset-4-tablet {
     margin-left: 33.33333%; } }
 
@@ -969,12 +974,12 @@ Grid Component
   .offset-5-mobile {
     margin-left: 41.66667%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .column-5-tablet {
     flex-basis: 41.66667%;
     max-width: 41.66667%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .offset-5-tablet {
     margin-left: 41.66667%; } }
 
@@ -994,12 +999,12 @@ Grid Component
   .offset-6-mobile {
     margin-left: 50%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .column-6-tablet {
     flex-basis: 50%;
     max-width: 50%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .offset-6-tablet {
     margin-left: 50%; } }
 
@@ -1019,12 +1024,12 @@ Grid Component
   .offset-7-mobile {
     margin-left: 58.33333%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .column-7-tablet {
     flex-basis: 58.33333%;
     max-width: 58.33333%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .offset-7-tablet {
     margin-left: 58.33333%; } }
 
@@ -1044,12 +1049,12 @@ Grid Component
   .offset-8-mobile {
     margin-left: 66.66667%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .column-8-tablet {
     flex-basis: 66.66667%;
     max-width: 66.66667%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .offset-8-tablet {
     margin-left: 66.66667%; } }
 
@@ -1069,12 +1074,12 @@ Grid Component
   .offset-9-mobile {
     margin-left: 75%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .column-9-tablet {
     flex-basis: 75%;
     max-width: 75%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .offset-9-tablet {
     margin-left: 75%; } }
 
@@ -1094,12 +1099,12 @@ Grid Component
   .offset-10-mobile {
     margin-left: 83.33333%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .column-10-tablet {
     flex-basis: 83.33333%;
     max-width: 83.33333%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .offset-10-tablet {
     margin-left: 83.33333%; } }
 
@@ -1119,12 +1124,12 @@ Grid Component
   .offset-11-mobile {
     margin-left: 91.66667%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .column-11-tablet {
     flex-basis: 91.66667%;
     max-width: 91.66667%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .offset-11-tablet {
     margin-left: 91.66667%; } }
 
@@ -1144,129 +1149,129 @@ Grid Component
   .offset-12-mobile {
     margin-left: 100%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .column-12-tablet {
     flex-basis: 100%;
     max-width: 100%; } }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .offset-12-tablet {
     margin-left: 100%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .column-0-laptop {
     flex-basis: 0%;
     max-width: 0%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .offset-0-laptop {
     margin-left: 0%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .column-1-laptop {
     flex-basis: 8.33333%;
     max-width: 8.33333%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .offset-1-laptop {
     margin-left: 8.33333%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .column-2-laptop {
     flex-basis: 16.66667%;
     max-width: 16.66667%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .offset-2-laptop {
     margin-left: 16.66667%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .column-3-laptop {
     flex-basis: 25%;
     max-width: 25%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .offset-3-laptop {
     margin-left: 25%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .column-4-laptop {
     flex-basis: 33.33333%;
     max-width: 33.33333%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .offset-4-laptop {
     margin-left: 33.33333%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .column-5-laptop {
     flex-basis: 41.66667%;
     max-width: 41.66667%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .offset-5-laptop {
     margin-left: 41.66667%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .column-6-laptop {
     flex-basis: 50%;
     max-width: 50%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .offset-6-laptop {
     margin-left: 50%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .column-7-laptop {
     flex-basis: 58.33333%;
     max-width: 58.33333%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .offset-7-laptop {
     margin-left: 58.33333%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .column-8-laptop {
     flex-basis: 66.66667%;
     max-width: 66.66667%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .offset-8-laptop {
     margin-left: 66.66667%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .column-9-laptop {
     flex-basis: 75%;
     max-width: 75%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .offset-9-laptop {
     margin-left: 75%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .column-10-laptop {
     flex-basis: 83.33333%;
     max-width: 83.33333%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .offset-10-laptop {
     margin-left: 83.33333%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .column-11-laptop {
     flex-basis: 91.66667%;
     max-width: 91.66667%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .offset-11-laptop {
     margin-left: 91.66667%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .column-12-laptop {
     flex-basis: 100%;
     max-width: 100%; } }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 1024px) {
   .offset-12-laptop {
     margin-left: 100%; } }
 
@@ -1315,7 +1320,7 @@ Visibility
       position: static;
       width: auto; }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 768px) {
   .clearvisuallyhidden--tablet {
     clip: auto;
     height: auto;
@@ -1327,7 +1332,7 @@ Visibility
 .padded-y {
   padding-top: 16px;
   padding-bottom: 16px; }
-  @media all and (min-width: 700px) {
+  @media all and (min-width: 768px) {
     .padded-y {
       padding-top: 24px;
       padding-bottom: 24px; } }
@@ -1335,7 +1340,7 @@ Visibility
 .padded-x {
   padding-left: 16px;
   padding-right: 16px; }
-  @media all and (min-width: 700px) {
+  @media all and (min-width: 768px) {
     .padded-x {
       padding-left: 24px;
       padding-right: 24px; } }
@@ -1425,7 +1430,7 @@ h1, .alpha {
   font-family: "Folioself", sans;
   font-size: 1em;
   font-weight: 400; }
-  @media all and (min-width: 700px) {
+  @media all and (min-width: 768px) {
     h1, .alpha {
       font-size: 1em; } }
 
@@ -1433,7 +1438,7 @@ h2, .beta {
   font-family: "TimesTen", serif;
   font-size: 1em;
   font-weight: 400; }
-  @media all and (min-width: 700px) {
+  @media all and (min-width: 768px) {
     h2, .beta {
       font-size: 1em; } }
 
@@ -1475,7 +1480,7 @@ p.p--small {
 .p--large,
 p.p--large {
   padding: 0 0 32px; }
-  @media all and (min-width: 700px) {
+  @media all and (min-width: 768px) {
     .p--large > p,
     .p--large,
     p.p--large {
@@ -1578,9 +1583,14 @@ img:after {
   display: block;
   font-size: 12px; }
 
-@media all and (min-width: 700px) {
-  .format img {
-    padding: 0 12% 80px; } }
+.format img {
+  padding: 0 0 80px; }
+  @media all and (min-width: 768px) {
+    .format img {
+      padding: 0 15% 80px; } }
+  @media all and (min-width: 1440px) {
+    .format img {
+      padding: 0 20% 80px; } }
 
 .curtain {
   position: fixed;
@@ -1633,7 +1643,7 @@ img:after {
   pointer-events: none;
   height: 80px;
   padding-bottom: 32px; }
-  @media all and (min-width: 700px) {
+  @media all and (min-width: 768px) {
     .header {
       height: 96px; } }
   .header a {
@@ -1653,10 +1663,10 @@ img:after {
 
 .project__project {
   max-width: 100%; }
-  @media all and (min-width: 700px) {
+  @media all and (min-width: 768px) {
     .project__project {
       max-width: 40%; } }
-  @media all and (min-width: 950px) {
+  @media all and (min-width: 1024px) {
     .project__project {
       max-width: 30%; } }
 
@@ -1665,7 +1675,7 @@ img:after {
 
 .project__link {
   display: block;
-  padding-bottom: 24px; }
+  padding-bottom: 72px; }
 
 /**
  * Shame Styles
