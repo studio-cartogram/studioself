@@ -5,4 +5,6 @@ thumbnail:
   image: "/uploads/MKT_thumb.jpg"
 ---
 
+![MKT_5.jpg](/uploads/MKT_5.jpg)
 ![MKT_6.jpg](/uploads/MKT_6.jpg)
+![MKT_7.jpg](/uploads/MKT_7.jpg)
