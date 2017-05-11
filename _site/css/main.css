@@ -1367,7 +1367,7 @@ html {
     body,
     html {
       font-size: 28px; } }
-  @media all and (min-width: 1440px) {
+  @media all and (min-width: 1640px) {
     body,
     html {
       font-size: 32px; } }
@@ -1675,7 +1675,7 @@ img:after {
     .project__project {
       max-width: 480px;
       padding: 40px; } }
-  @media all and (min-width: 1024px) {
+  @media all and (min-width: 1640px) {
     .project__project {
       max-width: 800px; } }
 
