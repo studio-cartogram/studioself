@@ -1,5 +1,5 @@
 ---
-title: Winter Winds Phil Hewitt Ensemble
+title: The Phil Hewitt Jazz Ensemble
 date: 2017-05-11 21:28:00 Z
 thumbnail:
   image: "/uploads/PE_thumb.jpg"
