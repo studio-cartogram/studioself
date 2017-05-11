@@ -12,7 +12,7 @@
     padding: $d-quin;
   }
 
-  @include bp($bp-laptop) {
+  @include bp($bp-desktop) {
     max-width: 800px;
   }
 }
