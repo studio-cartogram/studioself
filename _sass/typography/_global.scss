@@ -12,7 +12,17 @@ html {
   text-align: center;
 
   @include bp($bp-tablet) {
+    font-size: 24px;
   }
+
+  @include bp($bp-laptop) {
+    font-size: 28px;
+  }
+
+  @include bp($bp-desktop) {
+    font-size: 32px;
+  }
+
 }
 
 .serif {
@@ -53,7 +63,7 @@ i {
   h4,
   h5,
   h6 {
-    padding-bottom: $d-duo;
+    padding-bottom: 1.5em;
   }
 }
 
