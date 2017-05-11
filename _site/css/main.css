@@ -797,7 +797,7 @@ body {
 
 .main {
   flex: 1;
-  transition: all 400ms 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: opacity 400ms 400ms cubic-bezier(0.23, 1, 0.32, 1);
   padding-top: 80px; }
   @media all and (min-width: 768px) {
     .main {
@@ -1330,16 +1330,16 @@ Visibility
     width: auto; } }
 
 .padded-y {
-  padding-top: 16px;
-  padding-bottom: 16px; }
+  padding-top: 20px;
+  padding-bottom: 20px; }
   @media all and (min-width: 768px) {
     .padded-y {
       padding-top: 24px;
       padding-bottom: 24px; } }
 
 .padded-x {
-  padding-left: 16px;
-  padding-right: 16px; }
+  padding-left: 20px;
+  padding-right: 20px; }
   @media all and (min-width: 768px) {
     .padded-x {
       padding-left: 24px;
@@ -1359,6 +1359,18 @@ html {
   font-size: 20px;
   line-height: 1.5;
   text-align: center; }
+  @media all and (min-width: 768px) {
+    body,
+    html {
+      font-size: 24px; } }
+  @media all and (min-width: 1024px) {
+    body,
+    html {
+      font-size: 28px; } }
+  @media all and (min-width: 1440px) {
+    body,
+    html {
+      font-size: 32px; } }
 
 .serif {
   font-family: "TimesTen", serif !important; }
@@ -1394,7 +1406,7 @@ i {
   .format h5,
   .format .epsilon,
   .format h6 {
-    padding-bottom: 16px; }
+    padding-bottom: 1.5em; }
 
 /* =========================================
 Heading Typography
@@ -1584,13 +1596,10 @@ img:after {
   font-size: 12px; }
 
 .format img {
-  padding: 0 0 80px; }
+  padding: 0 0 20px; }
   @media all and (min-width: 768px) {
     .format img {
-      padding: 0 15% 80px; } }
-  @media all and (min-width: 1440px) {
-    .format img {
-      padding: 0 20% 80px; } }
+      padding: 0 calc(18% - 20px) 80px; } }
 
 .curtain {
   position: fixed;
@@ -1635,7 +1644,6 @@ img:after {
   position: absolute;
   width: 100%;
   top: 0;
-  transition: all 400ms cubic-bezier(0.23, 1, 0.32, 1);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1662,20 +1670,20 @@ img:after {
   flex-wrap: wrap; }
 
 .project__project {
-  max-width: 100%; }
+  padding-bottom: 20px; }
   @media all and (min-width: 768px) {
     .project__project {
-      max-width: 40%; } }
+      max-width: 480px;
+      padding: 40px; } }
   @media all and (min-width: 1024px) {
     .project__project {
-      max-width: 30%; } }
+      max-width: 800px; } }
 
 .project__image {
   padding-bottom: 8px; }
 
 .project__link {
-  display: block;
-  padding-bottom: 72px; }
+  display: block; }
 
 /**
  * Shame Styles

@@ -23,7 +23,7 @@ body {
 
 .main {
   flex: 1;
-  transition: all $a-timing $a-timing $a-easing;
+  transition: opacity $a-timing $a-timing $a-easing;
   padding-top: $d-header-height-mobile;
 
   @include bp($bp-tablet) {

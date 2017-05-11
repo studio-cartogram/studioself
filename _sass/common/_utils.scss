@@ -1,6 +1,6 @@
 .padded-y {
-  padding-top: $d-duo;
-  padding-bottom: $d-duo;
+  padding-top: $d-duoHalf;
+  padding-bottom: $d-duoHalf;
   @include bp($bp-tablet) {
     padding-top: $d-trio;
     padding-bottom: $d-trio;
@@ -8,8 +8,8 @@
 }
 
 .padded-x {
-  padding-left: $d-duo;
-  padding-right: $d-duo;
+  padding-left: $d-duoHalf;
+  padding-right: $d-duoHalf;
   @include bp($bp-tablet) {
     padding-left: $d-trio;
     padding-right: $d-trio;
