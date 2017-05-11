@@ -1,6 +1,8 @@
 ---
 title: Winter Winds Phil Hewitt Ensemble
 date: 2017-05-11 21:28:00 Z
+thumbnail:
+  image: "/uploads/PE_thumb.jpg"
 ---
 
 ![PE_2.jpg](/uploads/PE_2.jpg)
