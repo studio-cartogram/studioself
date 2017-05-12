@@ -12,6 +12,7 @@ thumbnail:
 ![PE_9.jpg](/uploads/PE_9.jpg)
 ![PE_5.jpg](/uploads/PE_5.jpg)
 ![PE_6.jpg](/uploads/PE_6.jpg)
+![PE_10.jpg](/uploads/PE_10.jpg)
 ![PE_7.jpg](/uploads/PE_7.jpg)
 ![PE_8.jpg](/uploads/PE_8.jpg)
 
