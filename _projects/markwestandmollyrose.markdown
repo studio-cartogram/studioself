@@ -1,6 +1,7 @@
 ---
 title: Mark West and Molly Rose
 date: 2017-05-05 20:31:00 Z
+published: false
 thumbnail:
   image: "/uploads/MWMR_1.jpg"
 ---
