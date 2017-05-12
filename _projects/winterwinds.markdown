@@ -14,4 +14,4 @@ thumbnail:
 
 Packaging and book design for P.E. Hewitt’s trilogy Winter Winds, released on Now-Again Records. Box set of three self-released and extremely rare late 60s and early 70s jazz albums. 
 
-Includes 3 × LP, 3 × CD and a saddle stitched booklets for each format featuring the original liner notes and an extensive interview with Phil Hewitt. Completed in 2008 for Way Shape Form.
+Includes 3 × LP, 3 × CD and a saddle stitched booklets for both formats featuring the original liner notes, never before seen photographs and an extensive interview with Phil Hewitt with Eothen Alopatt and Groove Merchant’s Chris Veltri. Completed in 2008 for Way Shape Form.
