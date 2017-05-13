@@ -1,6 +1,8 @@
 ---
 title: Objkt Company
 date: 2017-05-13 22:22:00 Z
+thumbnail:
+  image: "/uploads/OBJKT_thumb.jpg"
 ---
 
 ![OBJKT_1.jpg](/uploads/OBJKT_1.jpg)
