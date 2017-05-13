@@ -12,4 +12,4 @@ thumbnail:
 ![OBJKT_6.jpg](/uploads/OBJKT_6.jpg)
 ![OBJKT_7.jpg](/uploads/OBJKT_7.jpg)
 
-Identity and packaging for Objkt Company. Completed in 2016.
+Identity and packaging for Objkt Company. Completed in 2016 with Clea Forkert.
