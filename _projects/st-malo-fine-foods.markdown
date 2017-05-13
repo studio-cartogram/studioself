@@ -5,17 +5,25 @@ thumbnail:
   image: "/uploads/StMalo_thumb.jpg"
 ---
 
+![StMalo_pack0.jpg](/uploads/StMalo_pack0.jpg)
+![StMalo_pack1.jpg](/uploads/StMalo_pack1.jpg)
+![StMalo_pack2.jpg](/uploads/StMalo_pack2.jpg)
+![StMalo_pack3.jpg](/uploads/StMalo_pack3.jpg)
+![StMalo_pack4.jpg](/uploads/StMalo_pack4.jpg)
 ![StMalo_1.jpg](/uploads/StMalo_1.jpg)
 ![StMalo_2.jpg](/uploads/StMalo_2.jpg)
 ![StMalo_3.jpg](/uploads/StMalo_3.jpg)
 ![StMalo_4.jpg](/uploads/StMalo_4.jpg)
 ![StMalo_7.jpg](/uploads/StMalo_7.jpg)
 ![StMalo_8.jpg](/uploads/StMalo_8.jpg)
-![StMalo_pack0.jpg](/uploads/StMalo_pack0.jpg)
-![StMalo_pack1.jpg](/uploads/StMalo_pack1.jpg)
-![StMalo_pack2.jpg](/uploads/StMalo_pack2.jpg)
-![StMalo_pack3.jpg](/uploads/StMalo_pack3.jpg)
-![StMalo_pack4.jpg](/uploads/StMalo_pack4.jpg)
+
+
+
+
+
+
+
+
 
 
 Naming, identity and packaging design for St. Malo Fine Foods, a specialty cooking oil producer based in Taiwan and Canada. Offering premium avocado and organic canola oil, luxury packaging was designed for the Asian market and gifting in particular. 
