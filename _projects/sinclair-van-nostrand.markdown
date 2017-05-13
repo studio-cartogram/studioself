@@ -16,5 +16,4 @@ thumbnail:
 ![SvN_spread5.jpg](/uploads/SvN_spread5.jpg)
 ![SvN_04.jpg](/uploads/SvN_04.jpg)
 
-Identity for Sinclair Van Nostrand, architects and planners. 
-Completed in 2014 for Concrete.
+Identity for Sinclair Van Nostrand, architects and planners. SvN was formed when Planning Alliance and Regional Architects joined together 2015. The descriptor “Office for Practical Sciences” was originally the name of the program which the partners studied in school, and they still felt best described the nature of their work. Completed in 2014 for Concrete.
