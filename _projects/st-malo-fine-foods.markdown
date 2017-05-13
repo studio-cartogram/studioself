@@ -8,3 +8,4 @@ date: 2017-05-13 03:56:00 Z
 ![StMalo_3.jpg](/uploads/StMalo_3.jpg)
 ![StMalo_4.jpg](/uploads/StMalo_4.jpg)
 ![StMalo_7.jpg](/uploads/StMalo_7.jpg)
+![StMalo_8.jpg](/uploads/StMalo_8.jpg)
