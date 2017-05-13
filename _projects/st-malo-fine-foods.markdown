@@ -17,15 +17,6 @@ thumbnail:
 ![StMalo_7.jpg](/uploads/StMalo_7.jpg)
 ![StMalo_8.jpg](/uploads/StMalo_8.jpg)
 
-
-
-
-
-
-
-
-
-
 Naming, identity and packaging design for St. Malo Fine Foods, a specialty cooking oil producer based in Taiwan and Canada. Offering premium avocado and organic canola oil, luxury packaging was designed for the Asian market and gifting in particular. 
 
 The name was suggested as a way of linking two locations: the port city of St. Malo in Brittany, northwest France, and the town the bears its name in the prairies of Canada.
