@@ -15,8 +15,6 @@ thumbnail:
 ![DTAH_7a.jpg](/uploads/DTAH_7a.jpg)
 ![DTAH_8.jpg](/uploads/DTAH_8.jpg)
 
-Identity, printed materials, proposal template and signage for du Toit Allsopp Hillier. DTAH is a multidisciplinary architecture firm, which focuses on designing building, landscapes, and communities. 
-
-The DTAH studio was originally designed as the first permanent headquarters for the Ontario Association of Architects (OAA) by John B. Parkin Associates, one of the provinces leading modernist firms at the time. The building, which sits in the Rosedale valley ravine, was critically acclaimed as a landmark modern building in Toronto at the time of its completion in 1954.
+Identity, printed materials, proposal template and signage for du Toit Allsopp Hillier, a multidisciplinary architecture firm Located in Toronto. A straightforward and no nonsense identity was suggested to reference the firm’s unique location within an icon of modern architecture in Toronto. The DTAH offices were originally designed as the first permanent headquarters for the Ontario Association of Architects (OAA) by John B. Parkin Associates, one of the provinces leading modernist firms at the time. The building, which sits in the Rosedale valley ravine, was critically acclaimed as a landmark modern building in Toronto at the time of its completion in 1954.
 
 Completed in 2012 for Concrete.
