@@ -15,6 +15,8 @@ thumbnail:
 ![DTAH_7a.jpg](/uploads/DTAH_7a.jpg)
 ![DTAH_8.jpg](/uploads/DTAH_8.jpg)
 
-Book design for the WOLF HOUSE, commissioned to assist in the sale of the house by its original owners Lawrence and Mary Wolf. Designed by American architect BARTON MYERS in 1974, the award-winning WOLF HOUSE has become a well known example of glass and steel residential architecture. The structure’s exposed industrial elements and glass curtain are open to the wooden ravine in Toronto’s Rosedale valley. 
+Identity, printed materials, proposal template and signage for du Toit Allsopp Hillier. DTAH is a multidisciplinary architecture firm, which focuses on designing building, landscapes, and communities. 
 
-9×12 inches,  72 pages, softcover with dust jacket. Completed in 2012 for Concrete with photography by Colin Faulkner.
+The DTAH studio was originally designed as the first permanent headquarters for the Ontario Association of Architects (OAA) by John B. Parkin Associates, one of the provinces leading modernist firms at the time. The building, which sits in the Rosedale valley ravine, was critically acclaimed as a landmark modern building in Toronto at the time of its completion in 1954.
+
+Completed in 2012 for Concrete.
