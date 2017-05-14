@@ -1647,6 +1647,8 @@ img:after {
       height: 96px; } }
   .header a {
     pointer-events: auto; }
+  .header.is-fixed {
+    position: fixed; }
 
 .nextprev {
   text-align: left; }
