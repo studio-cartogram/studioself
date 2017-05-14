@@ -24,5 +24,6 @@ defaults:
   values:
     layout: project
     thumbnail:
-      image: 
+      image:
+    images:
 permalink: pretty
