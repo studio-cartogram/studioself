@@ -19,5 +19,8 @@
     pointer-events: auto
   }
 
+  &.is-fixed {
+    position: fixed;
+  }
 }
 

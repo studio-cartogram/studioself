@@ -18,7 +18,7 @@ a,
     content: '';
     position: absolute;
     top: auto;
-    bottom: 5px;
+    bottom: 2px;
     left: 0;
     right: 0;
     height: 1px;
@@ -26,20 +26,11 @@ a,
     opacity: 0;
   }
 
-  &:hover,
-  &:focus,
-  &.is-active {
+  &:hover {
     color: $ca-anchor-hover-color;
     & > .anchor__target:after,
     &:after {
       opacity: 1;
-    }
-  }
-
-  &.is-active {
-    &:focus,
-    &:hover {
-      color: $ca-anchor-color;
     }
   }
 }
