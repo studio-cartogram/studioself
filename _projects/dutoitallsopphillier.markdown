@@ -15,6 +15,6 @@ thumbnail:
 ![DTAH_7a.jpg](/uploads/DTAH_7a.jpg)
 ![DTAH_8.jpg](/uploads/DTAH_8.jpg)
 
-Identity, printed materials, proposal template and signage for du Toit Allsopp Hillier, a multidisciplinary architecture and planning firm located in Toronto. A straightforward logotype and typographic approach was proposed to reference the firm’s unique location. The DTAH offices were originally designed as the first permanent headquarters for the Ontario Association of Architects (OAA) by John B. Parkin Associates, one of the province’s leading modernist firms at the time. The building, which sits in the Rosedale valley ravine, was critically acclaimed as a landmark modern building in Toronto at the time of its completion in 1954.
+Identity, printed materials, proposals and signage for du Toit Allsopp Hillier, a multidisciplinary architecture and planning firm located in Toronto. A straightforward typographic identity was proposed to communicate the firm’s ability to clarify and resolve the complex problems of public environments, while referencing the historical significance of their offices at 50 Park Road. The building DTAH occupies was originally designed as the first permanent headquarters for the Ontario Association of Architects (OAA) by John B. Parkin Associates, one of the province’s leading modernist firms at the time. The building, which sits in the Rosedale valley ravine, was critically acclaimed as a landmark modern building in Toronto at the time of its completion in 1954.
 
 Completed in 2012 for Concrete, with Jordan Poirier and John Pylypczak.
