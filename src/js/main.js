@@ -15,6 +15,7 @@ import Curtain from './scripts/Curtain'
 import removeClasses from './utils/removeClasses'
 import imagesLoaded from 'imagesloaded'
 import addListenerMulti from './utils/addListenerMulti'
+import 'lazysizes'
 
 import {
   ACTIVE_CLASS,
