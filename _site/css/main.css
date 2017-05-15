@@ -1592,6 +1592,15 @@ img:after {
     .format img {
       padding: 0 calc(18% - 20px) 80px; } }
 
+/* fade image in after load */
+.lazyload,
+.lazyloading {
+  opacity: 0; }
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms; }
+
 .curtain {
   position: fixed;
   top: 0;

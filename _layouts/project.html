@@ -20,6 +20,16 @@ layout: default
 
   <div class="content format post__content" itemprop="articleBody">
 
+    {% for image in page.images %}
+
+    <figure class="ratio-container project__image">
+
+      <img data-src="{{ image }}" class="lazyload" />
+
+    <figure>
+
+    {% endfor %}
+
     {{ content }}
 
   </div>
