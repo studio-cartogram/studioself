@@ -27,6 +27,4 @@ defaults:
       image:
     images:
       -
-      -
-      -
 permalink: pretty
