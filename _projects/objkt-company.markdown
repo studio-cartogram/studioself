@@ -6,6 +6,7 @@ thumbnail:
 ---
 
 ![OBJKT_1.jpg](/uploads/OBJKT_1.jpg)
+![OBJKT_2.jpg](/uploads/OBJKT_2.jpg)
 ![OBJKT_3.jpg](/uploads/OBJKT_3.jpg)
 ![OBJKT_4.jpg](/uploads/OBJKT_4.jpg)
 ![OBJKT_5.jpg](/uploads/OBJKT_5.jpg)
