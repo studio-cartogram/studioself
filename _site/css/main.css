@@ -1358,19 +1358,17 @@ html {
   font-family: "TimesTen", serif;
   font-size: 20px;
   line-height: 1.3;
-  text-align: center; }
-  @media all and (min-width: 768px) {
+  text-align: center;
+  font-size: 28px;
+  font-size: 2.5vw; }
+  @media (max-width: 800px) {
     body,
     html {
-      font-size: 24px; } }
-  @media all and (min-width: 1024px) {
+      font-size: 20px; } }
+  @media (min-width: 1360px) {
     body,
     html {
-      font-size: 28px; } }
-  @media all and (min-width: 1640px) {
-    body,
-    html {
-      font-size: 32px; } }
+      font-size: 34px; } }
 
 .serif {
   font-family: "TimesTen", serif !important; }
@@ -1682,7 +1680,7 @@ img:after {
       max-width: 800px; } }
 
 .project__image {
-  padding-bottom: 8px; }
+  padding-bottom: 16px; }
 
 .project__link {
   display: block; }

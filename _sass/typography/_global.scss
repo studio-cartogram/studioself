@@ -10,18 +10,19 @@ html {
   font-size: 20px;
   line-height: 1.3;
   text-align: center;
-
-  @include bp($bp-tablet) {
-    font-size: 24px;
-  }
-
-  @include bp($bp-laptop) {
-    font-size: 28px;
-  }
-
-  @include bp($bp-desktop) {
-    font-size: 32px;
-  }
+  @include responsive-font(2.5vw, 20px, 34px, 28px);
+  //
+  // @include bp($bp-tablet) {
+  //   font-size: 24px;
+  // }
+  //
+  // @include bp($bp-laptop) {
+  //   font-size: 28px;
+  // }
+  //
+  // @include bp($bp-desktop) {
+  //   font-size: 32px;
+  // }
 
 }
 
