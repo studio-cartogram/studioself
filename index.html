@@ -18,7 +18,7 @@ layout: default
 
         <a class="project__link anchor--with-target" href="{{ project.url | prepend: site.baseurl }}">
 
-          <img class="project__image" src="{{ project.thumbnail.image }}" />
+          <img class="project__image lazyload" data-src="{{ project.thumbnail.image }}" />
 
           <h2 class="project__text anchor__target">{{ project.title }}</h2>
 
