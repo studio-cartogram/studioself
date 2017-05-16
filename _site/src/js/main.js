@@ -30,6 +30,7 @@ class App {
     Barba.Pjax.init()
     Barba.Prefetch.init()
     Barba.Pjax.getTransition = () =>  this.Transition
+    document.body.classList.remove('js-is-loading')
   }
 
   init = () => {
@@ -39,28 +40,28 @@ class App {
     // this.fade = new Fade()
     this.initTransitions()
     this.initSaver()
-    this.loadImages()
+    // this.loadImages()
     Barba.Dispatcher.on('initStateChange', () => {
       document.body.classList.add('js-is-moving')
     })
-    Barba.Dispatcher.on('linkClicked', el => {
-      const xs = document.getElementsByClassName(ACTIVE_CLASS)
-      if (xs.length > 0) {
-        removeClasses(xs, ACTIVE_CLASS)
-      }
-      el.classList.add(ACTIVE_CLASS);
-    })
+    // Barba.Dispatcher.on('linkClicked', el => {
+    //   const xs = document.getElementsByClassName(ACTIVE_CLASS)
+    //   if (xs.length > 0) {
+    //     removeClasses(xs, ACTIVE_CLASS)
+    //   }
+    //   el.classList.add(ACTIVE_CLASS);
+    // })
     Barba.Dispatcher.on('transitionCompleted', (currentStatus, prevStatus) => {
       document.body.classList.remove('js-is-moving')
     })
   }
 
-  loadImages = () => {
-    imagesLoaded(document.querySelector('#js-main'), instance => {
-      log('images loaded')
-      document.body.classList.remove('js-is-loading')
-    })
-  }
+  // loadImages = () => {
+  //   imagesLoaded(document.querySelector('#js-main'), instance => {
+  //     log('images loaded')
+  //     document.body.classList.remove('js-is-loading')
+  //   })
+  // }
 
   initTransitions = () => {
     // const _scrollTop = this.scroll.scrollTop.bind(this)
