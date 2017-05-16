@@ -4,6 +4,7 @@ date: 2017-05-11 20:33:00 Z
 thumbnail:
   image: "/uploads/MKT_thumb.jpg"
 images:
+- "/uploads/MKT_1.jpg"
 - "/uploads/MKT_2.jpg"
 - "/uploads/MKT_3.jpg"
 - "/uploads/MKT_4.jpg"
