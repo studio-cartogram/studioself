@@ -5,7 +5,7 @@ thumbnail:
   image: "/uploads/Helio_thumb.jpg"
 images:
 - "/uploads/Helio_1.jpg"
-- "/uploads/Helio_1.jpg"
+- "/uploads/Helio_3.jpg"
 - "/uploads/Helio_2.jpg"
 ---
 
