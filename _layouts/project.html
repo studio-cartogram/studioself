@@ -16,19 +16,22 @@ layout: default
 
 <main class="main" id="js-main">
 
-<article class="padded-x page" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="page" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <div class="content format post__content" itemprop="articleBody">
+  {% for image in page.images %}
 
-    {% for image in page.images %}
+  <figure class="project__image
+    ratio-container unknown-ratio-container
+    lazyload
+    ">
 
-    <figure class="ratio-container project__image">
+    <img data-src="{{ image }}" class="lazyload" />
 
-      <img data-src="{{ image }}" class="lazyload" />
+  </figure>
 
-    <figure>
+  {% endfor %}
 
-    {% endfor %}
+  <div class="padded-x content format post__content" itemprop="articleBody">
 
     {{ content }}
 
