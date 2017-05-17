@@ -9,7 +9,7 @@ images:
 - "/uploads/KarlHector_3.jpg"
 - "/uploads/KarlHector_4.jpg"
 - "/uploads/KarlHector_5.jpg"
-- "/uploads/KarlHector_2.jpg"
+- "/uploads/KarlHector_6.jpg"
 ---
 
 Packaging design for Karl Hector and the Malcouns album *Sahara Swing*, released on Now-Again Records. Includes 2×LP and CD. Completed in 2008 with River Jukes-Hudson for Way Shape Form.
