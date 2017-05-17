@@ -1,6 +1,7 @@
 ---
 title: Winter Winds
 date: 2017-05-11 21:28:00 Z
+position: 6
 thumbnail:
   image: "/uploads/PE_thumb.jpg"
 images:
