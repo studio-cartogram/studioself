@@ -1,6 +1,7 @@
 ---
 title: Sinclair van Nostrand
 date: 2017-05-04 16:01:00 Z
+position: 1
 thumbnail:
   image: "/uploads/SvN_00.jpg"
 ---
