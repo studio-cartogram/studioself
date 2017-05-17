@@ -18,7 +18,15 @@ layout: default
 
         <a class="project__link anchor--with-target" href="{{ project.url | prepend: site.baseurl }}">
 
-          <img class="project__image lazyload" data-src="{{ project.thumbnail.image }}" />
+          {% comment %}
+          <figure class="project__thumb ratio-container unknown-ratio-container">
+          {% endcomment %}
+
+          <img class="lazyload project__thumb" data-src="{{ project.thumbnail.image }}" />
+
+          {% comment %}
+          </figure>
+          {% endcomment %}
 
           <h2 class="project__text anchor__target">{{ project.title }}</h2>
 
