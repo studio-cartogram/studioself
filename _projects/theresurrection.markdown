@@ -11,6 +11,6 @@ images:
 - "/uploads/Chop_4.jpg"
 ---
 
-Record packaging designed for The Natural Yogurt Band’s only North American reissue of their album *Away With Melancholy*, released on Now-Again Records. This difficult to categorize album is heavily influenced by Galt MacDermot, David Axelrod, and Ennio Morricone, as well as library music. Library music, sometimes known as mood music, was made exclusively for use in television and radio commercials, and never made available for sale to the public. The cover of *Away with Melancholy* references the abstract, psychedelic, and often anonymous looking sleeves of library records.
+Packaging design for Mr Chop’s album The Resurrection released on Now-Again Records. Mr. Chop is a producer, engineer and multi-instrumentalist. The album features psychedelic funk, jazz and rock covers of producer Pete Rock’s greatest tracks, recorded with The Heliocentric’s Malcolm Catto, Jake Ferguson and Mike Burnham. The original artwork is from a long forgotten thrift store find: a book with many perforated images which were meant to be combined and contrasted for the sake of meditation and the contemplation of “the interconnectedness of all things”. The original image was a small, poorly reproduced thumbnail credited to Ovidio Salazar.
 
-Includes 2 × 10 inch LP, CD and 7 inch. Completed in 2009 with River Jukes-Hudson for Way Shape Form.
+Includes LP, CD and 2 × 7 inch. Completed in 2009 with River-Jukes Hudson for Way Shape Form.
