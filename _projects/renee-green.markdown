@@ -1,6 +1,10 @@
 ---
 title: Renée Green
 date: 2017-05-19 15:38:00 Z
+thumbnail:
+  image: "/uploads/ReneeGreen_thumb.jpg"
+images:
+- "/uploads/ReneeGreen_1.jpg"
 ---
 
 Catalogue design for Renee Green’s exhibition Endless Dreams And Time Based Streams at the Yerba Buena Center For The Arts in San Francisco, California. This small but extensive volume attempts to capture the complexity of Green's time-based art installations which encompassing video, audio as well as more conventional static artwork and collected ephemera. With contributions by Betti-Sue Hertz, Lia Gangitano, Ros Gray and Lisa Le Feuvre. 
