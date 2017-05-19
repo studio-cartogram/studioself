@@ -1365,10 +1365,10 @@ html {
     body,
     html {
       font-size: 20px; } }
-  @media (min-width: 4000px) {
+  @media (min-width: 1360px) {
     body,
     html {
-      font-size: 100px; } }
+      font-size: 34px; } }
 
 .serif {
   font-family: "TimesTen", serif !important; }
@@ -1511,7 +1511,6 @@ a,
   text-decoration: inherit;
   color: #231D24;
   font-weight: 400;
-  transition: all 400ms cubic-bezier(0.23, 1, 0.32, 1);
   position: relative; }
   a > .anchor__target:after, a:not(.anchor--with-target):after,
   .anchor__target > .anchor__target:after,

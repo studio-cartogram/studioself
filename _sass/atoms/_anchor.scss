@@ -10,7 +10,6 @@ a,
   text-decoration: inherit;
   color: $ca-anchor-color;
   font-weight: $t-font-weight-regular;
-  transition: all $a-timing $a-easing;
   position: relative;
 
   & > .anchor__target:after,
