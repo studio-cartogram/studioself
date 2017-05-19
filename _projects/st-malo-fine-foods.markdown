@@ -15,6 +15,7 @@ images:
 - "/uploads/StMalo_3.jpg"
 - "/uploads/StMalo_4.jpg"
 - "/uploads/StMalo_7.jpg"
+- "/uploads/StMalo_5.jpg"
 - "/uploads/StMalo_8.jpg"
 - "/uploads/StMalo_web1.jpg"
 - "/uploads/StMalo_web2.jpg"
