@@ -6,8 +6,8 @@ thumbnail:
   image: "/uploads/SvN_thumb.jpg"
 images:
 - "/uploads/SvN_1.jpg"
-- "/uploads/SvN_3.jpg"
 - "/uploads/SvN_2.jpg"
+- "/uploads/SvN_3.jpg"
 - "/uploads/SvN_4.jpg"
 - "/uploads/SvN_5.jpg"
 - "/uploads/SvN_6.jpg"
