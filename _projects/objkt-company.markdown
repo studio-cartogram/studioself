@@ -12,6 +12,8 @@ images:
 - "/uploads/OBJKT_5.jpg"
 - "/uploads/OBJKT_6.jpg"
 - "/uploads/OBJKT_7.jpg"
+- "/uploads/OBJKT_8.jpg"
+- "/uploads/OBJKT_9.jpg"
 ---
 
 Identity and packaging for Objkt Company. Completed in 2016 with Clea Forkert.
