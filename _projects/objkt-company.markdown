@@ -10,8 +10,8 @@ images:
 - "/uploads/OBJKT_3.jpg"
 - "/uploads/OBJKT_4.jpg"
 - "/uploads/OBJKT_5.jpg"
-- "/uploads/OBJKT_6.jpg"
 - "/uploads/OBJKT_7.jpg"
+- "/uploads/OBJKT_6.jpg"
 - "/uploads/OBJKT_8.jpg"
 - "/uploads/OBJKT_9.jpg"
 ---
