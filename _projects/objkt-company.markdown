@@ -16,6 +16,6 @@ images:
 - "/uploads/OBJKT_9.jpg"
 ---
 
-Identity, packaging and website design for Objkt Company. Craig Marshall approached us with an idea to brand and package a new product he had developed with professional audio engineers in mind. *Cable Gear* aims to solve the tremendous headaches involved with managing large amounts of cables. Other products exist on the market but when used together, *Gears* behave as an open conduit, making it easy to remove or add cables at any point in the system. A set of symbols was developed to use as a visual description of the open system, inspired by the notation of electric components in circuit design (resistors, inductances, capacitors, transistors). 
+Identity, packaging and website design for Objkt Company. Craig Marshall approached us with an idea to brand and package a new product he had developed with professional audio engineers in mind. *Cable Gear* aims to solve the tremendous headaches involved with managing large amounts of cables. Other products exist on the market but when used together, the *Gears* behave as an open conduit, making it easy to remove or add cables at any point in the system. A set of symbols was developed to use as a visual description of the open system, inspired by the notation of electric components in circuit design (resistors, inductances, capacitors, transistors). 
 
 Completed in 2016 with Clea Forkert.
