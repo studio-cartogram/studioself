@@ -1709,7 +1709,9 @@ img:after {
   padding-bottom: 16px; }
 
 .project__link {
-  display: block; }
+  display: block;
+  min-height: 240px;
+  width: 100%; }
 
 /**
  * Shame Styles
