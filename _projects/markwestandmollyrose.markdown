@@ -1,7 +1,6 @@
 ---
 title: Mark West and Molly Rose
 date: 2017-05-05 20:31:00 Z
-published: false
 position: 2
 thumbnail:
   image: "/uploads/MarkWestMollyRose_thumb.jpg"
