@@ -10,7 +10,6 @@ images:
 - "/uploads/ReneeGreen_4.jpg"
 - "/uploads/ReneeGreen_5.jpg"
 - "/uploads/ReneeGreen_6.jpg"
-- "/uploads/ReneeGreen_7.jpg"
 - "/uploads/ReneeGreen_8.jpg"
 - "/uploads/ReneeGreen_9.jpg"
 - "/uploads/ReneeGreen_10.jpg"
