@@ -6,7 +6,6 @@ thumbnail:
 images:
 - "/uploads/KH_EOOS_1.jpg"
 - "/uploads/KH_EOOS_2.jpg"
-- "/uploads/KH_EOOS_3.jpg"
 - "/uploads/KH_EOOS_4.jpg"
 - "/uploads/KH_EOOS_5.jpg"
 - "/uploads/KH_EOOS_6.jpg"
@@ -14,10 +13,11 @@ images:
 - "/uploads/KH_EOOS_8.jpg"
 - "/uploads/KH_EOOS_9.jpg"
 - "/uploads/KH_EOOS_10.jpg"
-- "/uploads/KH_EOOS_11.jpg"
 - "/uploads/KH_EOOS_12.jpg"
+- "/uploads/KH_EOOS_11.jpg"
 - "/uploads/KH_EOOS_13.jpg"
 - "/uploads/KH_EOOS_14.jpg"
+- "/uploads/KH_EOOS_3.jpg"
 ---
 
 Art direction and book design for Keilhauer and EOOS 15 Years. The catalog documents the 15 year collaborative working relationship between Canadian furniture manufacturer Keilhauer and the Venetian industrial design studio EOOS. 
