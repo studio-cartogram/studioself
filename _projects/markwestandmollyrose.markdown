@@ -6,6 +6,20 @@ thumbnail:
   image: "/uploads/MarkWestMollyRose_thumb.jpg"
 images:
 - "/uploads/MarkWestMollyRose_1.jpg"
+- "/uploads/MarkWestMollyRose_2.jpg"
+- "/uploads/MarkWestMollyRose_3.jpg"
+- "/uploads/MarkWestMollyRose_4.jpg"
+- "/uploads/MarkWestMollyRose_5.jpg"
+- "/uploads/MarkWestMollyRose_6.jpg"
+- "/uploads/MarkWestMollyRose_7.jpg"
+- "/uploads/MarkWestMollyRose_8.jpg"
+- "/uploads/MarkWestMollyRose_9.jpg"
+- "/uploads/MarkWestMollyRose_10.jpg"
+- "/uploads/MarkWestMollyRose_11.jpg"
+- "/uploads/MarkWestMollyRose_12.jpg"
+- "/uploads/MarkWestMollyRose_13.jpg"
+- "/uploads/MarkWestMollyRose_14.jpg"
+- "/uploads/MarkWestMollyRose_15.jpg"
 ---
 
 Book design for *Mark West And Molly Rose*, a collection of photographs by Jeff Barnett- Winsby published by J&L Books. Jeff had been photographing in Lansing Prison for a year when he found out that an inmate had escaped with the help of a social worker who ran a dog rehabilitation program in the prison. John Maynard and Toby Young, under the aliases Mark West and Molly Rose, were captured two weeks later in Tennessee. This book is a collection of his photographs and correspondence with the two lovers, both before and after their escape. 
