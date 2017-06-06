@@ -6,6 +6,7 @@ thumbnail:
 images:
 - "/uploads/ConcreteBox_1.jpg"
 - "/uploads/ConcreteBox_2.jpg"
+- "/uploads/ConcreteBox_4.jpg"
 ---
 
 asdfghjklqwertyuiop
