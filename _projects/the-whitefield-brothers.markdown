@@ -8,7 +8,6 @@ images:
 - "/uploads/WhitefieldBrothers_1.jpg"
 - "/uploads/WhitefieldBrothers_2.jpg"
 - "/uploads/WhitefieldBrothers_4.jpg"
-- "/uploads/WhitefieldBrothers_5.jpg"
 - "/uploads/WhitefieldBrothers7.jpg"
 - "/uploads/WhitefieldBrothers6.jpg"
 ---
