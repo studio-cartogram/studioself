@@ -5,8 +5,8 @@ position: 1
 thumbnail:
   image: "/uploads/WhitefieldBrothers_thumb.jpg"
 images:
+- "/uploads/WhitefieldBrothers_1.jpg"
 - "/uploads/WhitefieldBrothers_2.jpg"
-- "/uploads/WhitefieldBrothers_3.jpg"
 - "/uploads/WhitefieldBrothers_4.jpg"
 - "/uploads/WhitefieldBrothers_5.jpg"
 - "/uploads/WhitefieldBrothers7.jpg"
