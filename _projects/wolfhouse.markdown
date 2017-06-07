@@ -14,7 +14,6 @@ images:
 - "/uploads/Wolf_7.jpg"
 - "/uploads/Wolf_8.jpg"
 - "/uploads/Wolf_9.jpg"
-- "/uploads/Wolf_10.jpg"
 - "/uploads/Wolf_11.jpg"
 - "/uploads/Wolf_12.jpg"
 ---
