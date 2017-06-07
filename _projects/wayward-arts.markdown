@@ -1,6 +1,7 @@
 ---
 title: Wayward Arts
 date: 2017-06-06 23:18:00 Z
+position: 7
 thumbnail:
   image: "/uploads/WaywardArts_thumb.jpg"
 images:

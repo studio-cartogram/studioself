@@ -1,7 +1,7 @@
 ---
 title: St. Malo Fine Foods
 date: 2017-05-13 03:56:00 Z
-position: 7
+position: 15
 thumbnail:
   image: "/uploads/StMalo_thumb.jpg"
 images:
