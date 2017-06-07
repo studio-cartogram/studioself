@@ -1,6 +1,7 @@
 ---
 title: Renée Green
 date: 2017-05-19 15:38:00 Z
+position: 4
 thumbnail:
   image: "/uploads/ReneeGreen_thumb.jpg"
 images:
