@@ -12,4 +12,6 @@ images:
 - "/uploads/WhitefieldBrothers6.jpg"
 ---
 
-Packaging design for Karl Hector and the Malcouns album Sahara Swing, released on Now-Again Records. Includes 2×LP and CD. Completed in 2008 with River Jukes-Hudson for Way Shape Form.
+Packaging design for The Whitefield Brothers’ album *In The Raw*, released on Now-Again Records. Originally released in 2001 in a limited run on Soul Fire Records, the album’s reissue included exclusive, never before heard tracks from the original recording session, and new artwork to accompany it. The Whitefield Brothers are German Jan and Max Weissenfeldt, and *In The Raw* is influenced by the Meters, Fela Kuti and his Africa 70, and psychedelic Ghanaian and Nigerian masterpieces by unknown psych-funk groups such as Blo, Edazawa and the Psychedelic Aliens.
+
+Includes 2 × LP and CD. Completed in 2009 with River Jukes-Hudson for Way Shape Form.
