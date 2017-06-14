@@ -4,7 +4,7 @@ Links/Anchor Component
 
 a,
 .anchor__target {
-  display: inline-block;
+  display: inline;
   outline: none;
   color: inherit;
   text-decoration: inherit;
@@ -12,24 +12,36 @@ a,
   font-weight: $t-font-weight-regular;
   position: relative;
 
-  & > .anchor__target:after,
-  &:not(.anchor--with-target):after {
-    content: '';
-    position: absolute;
-    top: auto;
-    bottom: 2px;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: currentColor;
-    opacity: 0;
+  // & > .anchor__target:after,
+  // &:not(.anchor--with-target):after {
+    //   content: '';
+    //   position: absolute;
+    //   top: auto;
+    //   bottom: 2px;
+    //   left: 0;
+    //   right: 0;
+    //   height: 1px;
+    //   background: currentColor;
+    //   opacity: 0;
+    //
+  // }
+  &:not(.anchor--with-target) {
+    text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0.02em #fff, -0.12em 0.02em #fff;
+    background: linear-gradient(#000, #000);
+    background-size: 100% .06em;
+    background-repeat: no-repeat;
+    background-position: 0 95%;
+  }
+
+  &.anchor--with-noshadow {
+    text-shadow: none;
   }
 
   &:hover {
     color: $ca-anchor-hover-color;
-    & > .anchor__target:after,
-    &:after {
-      opacity: 1;
-    }
+    // & > .anchor__target:after,
+    // &:after {
+      //   opacity: 1;
+    // }
   }
 }
