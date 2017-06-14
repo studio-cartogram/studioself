@@ -12,7 +12,9 @@ layout: default
 
   <section class="padded-x projects">
 
-    {% for project in site.projects %}
+    {% assign sorted_projects = site.projects | sort:"position" %}
+
+    {% for project in sorted_projects %}
 
       <article class="project__project">
 
