@@ -1,7 +1,7 @@
 ---
 title: Keilhauer and EOOS
 date: 2017-06-02 17:43:00 Z
-position: 5
+position: 6
 thumbnail:
   image: "/uploads/KH_EOOS_thumb.jpg"
 images:
