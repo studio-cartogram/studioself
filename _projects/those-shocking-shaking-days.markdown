@@ -8,6 +8,8 @@ images:
 - "/uploads/TSSD_1.jpg"
 - "/uploads/TSSD_3.jpg"
 - "/uploads/TSSD_4.jpg"
+- "/uploads/TSSD_5.jpg"
+- "/uploads/TSSD_7.jpg"
 - "/uploads/TSSD_11.jpg"
 - "/uploads/TSSD_12.jpg"
 ---
