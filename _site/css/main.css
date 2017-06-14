@@ -1506,32 +1506,26 @@ Links/Anchor Component
 ========================================= */
 a,
 .anchor__target {
-  display: inline-block;
+  display: inline;
   outline: none;
   color: inherit;
   text-decoration: inherit;
   color: #231D24;
   font-weight: 400;
   position: relative; }
-  a > .anchor__target:after, a:not(.anchor--with-target):after,
-  .anchor__target > .anchor__target:after,
-  .anchor__target:not(.anchor--with-target):after {
-    content: '';
-    position: absolute;
-    top: auto;
-    bottom: 2px;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: currentColor;
-    opacity: 0; }
+  a:not(.anchor--with-target),
+  .anchor__target:not(.anchor--with-target) {
+    text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0.02em #fff, -0.12em 0.02em #fff;
+    background: linear-gradient(#000, #000);
+    background-size: 100% .06em;
+    background-repeat: no-repeat;
+    background-position: 0 95%; }
+  a.anchor--with-noshadow,
+  .anchor__target.anchor--with-noshadow {
+    text-shadow: none; }
   a:hover,
   .anchor__target:hover {
     color: #231D24; }
-    a:hover > .anchor__target:after, a:hover:after,
-    .anchor__target:hover > .anchor__target:after,
-    .anchor__target:hover:after {
-      opacity: 1; }
 
 .brand {
   text-transform: uppercase;
