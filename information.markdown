@@ -3,11 +3,11 @@ title: Information
 date: 2017-04-20 07:21:00 Z
 ---
 
-Matthew Boyd is an independent graphic designer and art director with over 12 years of experience. As Design Director Matthew leads projects for a wide range of clients, always with a focus on critical details, typography and materials. He currently works on a wide range of branding, packaging, and print projects for clients including Keilhauer, Pusateri’s, Great Gulf, and Cérvelo.
+Matthew Boyd is a graphic designer and art director, based in Toronto, Canada. I am engaged in the design of books, identities, websites and packaging for commercial and cultural clients. My practice is centred around the creation of thoughtful work that is simultaneously rich with detail and easily understood. My process involves discussion, research and exploration, so that I may gain insight into, and find a solution for, the goals of any assignment. 
 
-Design is simultaneously a process and a result, a business tool and an art form, a service and a product. With this in mind I create visual concepts and identities that may result in, or be applied to; books, catalogues, posters, flms, stationaries, websites and packaging. My work is based on discussion, insight and intuition. My wish is for my clients, my partners and myself to be within the target group of what we are creating, so that we can build our work on what we ask for as an audience.
+I have over 12 years of experience, working for large and small clients in many different areas. Most recently I held the position of Design Director at Concrete, where I lead branding and packaging projects for a wide range of clients, always with a focus on critical details, typography and materials. Previously I was a founding partner of the studio Way Shape Form, which focused on the design of publications, printed materials and packaging for museums, publishers and record labels. I hold a BFA in Graphic Design from the Art Center College of Design in Pasadena, California. My work has been recognized internationally by organizations like the Type Directors Club (US), the One Club (US), Graphis (CH), and the ADCC (CAN), and has been included in publications such as Graphic (KOR).
 
-Matthew graduated from the Art Center College of Design in Pasadena, California. Before joining Concrete he ran an independent practice and worked with artists, publishers, entrepreneurs and businesses of all sizes. Some of his previous clients include Nike, Vans, Now-Again Records, J&L Books, and The Yerba Buena Centre for the Arts. His work has been recognized internationally and his work has been included in publications such as Graphic (Korea). I am always on the look out for new and exciting projects and collaborations. If you think that your project could benefit from my participation in any way, I will be happy to talk to you.
+My wish is to work with clients who are engaged with their audience so that I may create work that communicates as clearly and effectively as possible. I am always on the look out for new and exciting projects and collaborations. If you think that your project could benefit from my participation in any way, please don’t hesitate to get in contact.
 
 *  
 *  
@@ -17,6 +17,6 @@ Matthew graduated from the Art Center College of Design in Pasadena, California.
 
 * Matthew Boyd
 
-* Email [contact @ studio-self.com](mailto:contact@studio-self.com)
+* Email [matthew@studio-self.com](mailto:matthew@studio-self.com)
 
 * Telephone [1 416 551 6015](tel:14165516015)
