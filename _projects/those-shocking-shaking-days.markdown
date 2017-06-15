@@ -18,8 +18,6 @@ images:
 - "/uploads/TSSD_14.jpg"
 ---
 
-Now-Again, in conjunction with Canadian producer Jason “Moss” Connoy and Indonesian rock legend Benny Soebarjda, will release an anthology that represents an extensive survey into the Indonesian psychedelic and progressive rock scene that flowered in Jakarta in the early 1970s. The release is planned for early 2010. Researcher Chandra Drews, an Indonesian-national who is assisting in assembling the liner notes for the compilation, recently interviewed Soebarjda in Holland. 
-
-The packaging includes extensive booklets for both LP and CD formats, including detailed liner notes and never before seen photographs.
+Now-Again, in conjunction with Canadian producer Jason “Moss” Connoy and Indonesian rock legend Benny Soebarjda, will release an anthology that represents an extensive survey into the Indonesian psychedelic and progressive rock scene that flowered in Jakarta in the early 1970s. The release is planned for early 2010. Researcher Chandra Drews, an Indonesian-national who is assisting in assembling the liner notes for the compilation, recently interviewed Soebarjda in Holland. The packaging includes extensive booklets for both LP and CD formats, including detailed liner notes and never before seen photographs.
 
 Includes 3 × LP and CD, 64 page CD booklet.Completed in 2009, with River Jukes-Hudson for Way Shape Form.
