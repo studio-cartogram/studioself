@@ -21,6 +21,6 @@ images:
 - "/uploads/KH_EOOS_3.jpg"
 ---
 
-Art direction and book design for Keilhauer and EOOS 15 Years. The catalog documents the 15 year collaborative working relationship between Canadian furniture manufacturer Keilhauer and the Venetian industrial design studio EOOS. 
+Art direction and book design for *Keilhauer and EOOS 15 Years*. The catalog documents the 15 year collaborative working relationship between Canadian furniture manufacturer Keilhauer and the Venetian industrial design studio EOOS. A ten day photoshoot captured nearly 11 different product lines that had been designed and manufactured over the 15 year period. Work on the book involved planning, layout and design as well as commissioning the writing and the on set art direction during the photoshoot with Colin Faulkner. The book was launched at the Keilhauer showroom during NeoCon 2014.
 
-8.5 x 11 inches, 82 pages, saddle stitched softcover with dust jacket. Completed in 2014 for Concrete, with Diti Katona, John Plypczak and Jordan Poirier, with photography by Colin Faulkner. Awarded by Graphis (silver), the TDC, ADCC and Applied Arts.
+8.5 x 11 inches, 82 pages, saddle stitched softcover with foil stamped dust jacket. Completed in 2014 for Concrete, with Diti Katona, John Plypczak and Jordan Poirier, photography by Colin Faulkner and Dipesh Lakhani, and writing by James Grainger. Awarded by Graphis (Silver), the TDC, ADCC and Applied Arts.
