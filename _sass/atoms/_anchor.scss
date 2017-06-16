@@ -12,30 +12,37 @@ a,
   font-weight: $t-font-weight-regular;
   position: relative;
 
-  // & > .anchor__target:after,
-  // &:not(.anchor--with-target):after {
-    //   content: '';
-    //   position: absolute;
-    //   top: auto;
-    //   bottom: 2px;
-    //   left: 0;
-    //   right: 0;
-    //   height: 1px;
-    //   background: currentColor;
-    //   opacity: 0;
-    //
-  // }
   &:hover > .anchor__target,
   &:not(.anchor--with-target):hover {
-    text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0.02em #fff, -0.12em 0.02em #fff;
+    text-shadow: 
+    0.03em 0 #fff,
+    -0.03em 0 #fff,
+    0.06em 0 #fff,
+    -0.06em 0 #fff,
+    0.09em 0 #fff,
+    -0.09em 0 #fff,
+    0.12em 0.02em #fff,
+    -0.12em 0.02em #fff,
+    0.13em 0.02em #fff,
+    -0.13em 0.02em #fff,
+    0.14em 0.02em #fff,
+    -0.14em 0.02em #fff,
+    0.15em 0.02em #fff,
+    -0.15em 0.02em #fff,
+    0.16em 0.02em #fff,
+    -0.16em 0.02em #fff,
+    0.17em 0.02em #fff,
+    -0.17em 0.02em #fff
+    ;
     background: linear-gradient(#000, #000);
-    background-size: 100% .06em;
+    background-size: 100% .05em;
     background-repeat: no-repeat;
     background-position: 0 95%;
   }
 
-  &.anchor--with-noshadow {
-    text-shadow: none;
+  &.anchor--with-noshadow,
+  &.anchor--with-noshadow:hover {
+    text-shadow: none !important;
   }
 
   &:hover {
