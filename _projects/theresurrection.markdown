@@ -1,7 +1,7 @@
 ---
 title: The Resurrection
 date: 2017-04-20 07:23:00 Z
-position: 13
+position: 12
 thumbnail:
   image: "/uploads/Chop_thumb.jpg"
 images:
