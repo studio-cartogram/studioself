@@ -1,7 +1,7 @@
 ---
 title: Matter
 date: 2017-06-04 15:42:00 Z
-position: 7
+position: 6
 thumbnail:
   image: "/uploads/Matter_thumb.jpg"
 images:
