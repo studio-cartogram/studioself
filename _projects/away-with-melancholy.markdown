@@ -1,7 +1,7 @@
 ---
 title: Away With Melancholy
 date: 2017-05-18 20:18:00 Z
-position: 2
+position: 3
 thumbnail:
   image: "/uploads/NYB_thumb.jpg"
 images:
