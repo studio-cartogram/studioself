@@ -4,6 +4,11 @@ Basic/Global Typography
 
 @mixin font-feature($features...) {
   $font-feature-settings: "liga", "dlig", "onum";
+  -moz-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
+  -ms-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
+  -o-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
+  -webkit-font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
+  font-feature-settings:"liga" 1, "dlig" 1, "hlig" 1, "clig" 1; 
 
   @if length($features) > 0 {
       $font-feature-settings: $features;
