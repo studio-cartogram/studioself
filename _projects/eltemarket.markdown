@@ -12,6 +12,7 @@ images:
 - "/uploads/MKT_5.jpg"
 - "/uploads/MKT_6.jpg"
 - "/uploads/MKT_7.jpg"
+- "/uploads/MKT_9.jpg"
 - "/uploads/MKT_8.jpg"
 ---
 
