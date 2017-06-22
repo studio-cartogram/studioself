@@ -5,8 +5,6 @@ position: 9
 thumbnail:
   image: "/uploads/MKT_thumb.jpg"
 images:
-- "/uploads/MKT_1.jpg"
-- "/uploads/MKT_10.jpg"
 - "/uploads/MKT_2.jpg"
 - "/uploads/MKT_3.jpg"
 - "/uploads/MKT_4.jpg"
@@ -15,6 +13,8 @@ images:
 - "/uploads/MKT_7.jpg"
 - "/uploads/MKT_9.jpg"
 - "/uploads/MKT_8.jpg"
+- "/uploads/MKT_10.jpg"
+- "/uploads/MKT_1.jpg"
 ---
 
 Identity, naming, signage and printed materials for MKT, a furniture retail space by Elte.
