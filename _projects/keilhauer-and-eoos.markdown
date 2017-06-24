@@ -17,6 +17,7 @@ images:
 - "/uploads/KH_EOOS_10.jpg"
 - "/uploads/KH_EOOS_4.jpg"
 - "/uploads/KH_EOOS_15.jpg"
+- "/uploads/KH_EOOS_18.jpg"
 ---
 
 Art direction and book design for *Keilhauer and EOOS 15 Years*. The catalog documents the 15 year collaborative working relationship between Canadian furniture manufacturer Keilhauer and the Venetian industrial design studio EOOS. A ten day photoshoot captured nearly 11 different product lines that had been designed and manufactured over the 15 year period. The photography is printed on high quality gloss stock, with archival photographs, an essay and an interview printed on uncoated paper in the centre section of the book. Work on the book involved extensive planning, layout and design as well as commissioning the writing and the on set art direction during the photoshoot with Colin Faulkner. The book was launched at the Keilhauer showroom during NeoCon 2014 along with 3 new products designed by EOOS.
