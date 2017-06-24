@@ -8,7 +8,6 @@ images:
 - "/uploads/KH_EOOS_1.jpg"
 - "/uploads/KH_EOOS_2.jpg"
 - "/uploads/KH_EOOS_2a.jpg"
-- "/uploads/KH_EOOS_17.jpg"
 - "/uploads/KH_EOOS_16.jpg"
 - "/uploads/KH_EOOS_5.jpg"
 - "/uploads/KH_EOOS_6.jpg"
