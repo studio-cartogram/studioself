@@ -1,7 +1,7 @@
 ---
 title: Those Shocking Shaking Days
 date: 2017-06-13 17:17:00 Z
-position: 1
+position: 2
 thumbnail:
   image: "/uploads/TSSD_1.jpg"
 images:
@@ -20,6 +20,6 @@ images:
 - "/uploads/TSSD_14.jpg"
 ---
 
-Now-Again, in conjunction with Canadian producer Jason “Moss” Connoy and Indonesian rock legend Benny Soebarjda, will release an anthology that represents an extensive survey into the Indonesian psychedelic and progressive rock scene that flowered in Jakarta in the early 1970s. The release is planned for early 2010. Researcher Chandra Drews, an Indonesian-national who is assisting in assembling the liner notes for the compilation, recently interviewed Soebarjda in Holland. The packaging includes extensive booklets for both LP and CD formats, including detailed liner notes and never before seen photographs.
+Record packaging for *Those Shocking, Shaking Days*, an anthology that represents the Indonesian psychedelic and progressive rock scene that flowered in Jakarta in the early 1970s. The booklets for both formats feature extensive liner notes, archival photography, and background information. In addition to the sometimes outlandish photography (and outfits), bold typography and a bright colour palette try to capture the brash and vibrant energy of the psychedelic era. With contributions by Jason “Moss” Connoy, Indonesian rock legend Benny Soebarjda, and researcher Chandra Drews, an Indonesian-national who assisted in assembling the liner notes for the compilation. 
 
-Includes 3 × LP and CD, 64 page CD booklet.Completed in 2009, with River Jukes-Hudson for Way Shape Form.
+Includes 3×LP trifold sleeve, with 24 page saddle stitched booklet, plus a CD with a sleeve and a 64 page booklet bound in sewn signatures. Completed in 2010 for Way Shape Form.

@@ -1,12 +1,13 @@
 ---
 title: The Whitefield Brothers
 date: 2017-05-18 22:38:00 Z
-position: 2
+position: 14
 thumbnail:
   image: "/uploads/WhitefieldBrothers_thumb.jpg"
 images:
 - "/uploads/WhitefieldBrothers_1.jpg"
 - "/uploads/WhitefieldBrothers_22.jpg"
+- "/uploads/WhitefieldBrothers8.jpg"
 - "/uploads/WhitefieldBrothers_2.jpg"
 - "/uploads/WhitefieldBrothers_4.jpg"
 - "/uploads/WhitefieldBrothers7.jpg"
