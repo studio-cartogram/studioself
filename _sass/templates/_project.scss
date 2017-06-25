@@ -1,1 +1,8 @@
-
+.project__image {
+  &.lazyloading {
+    height: 100vh;
+  }
+  &.lazyloaded {
+    height: auto;
+  }
+}
