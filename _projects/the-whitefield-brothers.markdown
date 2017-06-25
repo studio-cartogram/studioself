@@ -4,6 +4,8 @@ date: 2017-05-18 22:38:00 Z
 position: 14
 thumbnail:
   image: "/uploads/WhitefieldBrothers_thumb-sm-9ed75a.jpg"
+  height: 480
+  width: 480
 images:
 - "/uploads/WhitefieldBrothers_1.jpg"
 - "/uploads/WhitefieldBrothers_22.jpg"
