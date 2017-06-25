@@ -1387,6 +1387,7 @@ strong,
 
 em,
 i {
+  font-style: normal;
   font-family: "TimesTenItalic", serif !important; }
 
 .format {
@@ -1714,6 +1715,9 @@ img:after {
   display: block;
   min-height: 240px;
   width: 100%; }
+
+.project__content {
+  padding-top: 32px; }
 
 .project__image.lazyloading {
   height: 100vh; }
