@@ -8,8 +8,7 @@
 .project__project {
   padding-bottom: $d-duoHalf;
   @include bp($bp-tablet) {
-    max-width: 480px;
-    padding: $d-quin;
+    // padding: $d-quin;
   }
 
   @include bp($bp-desktop) {

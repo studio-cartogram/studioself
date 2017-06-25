@@ -31,6 +31,7 @@ class App {
     Barba.Prefetch.init()
     Barba.Pjax.getTransition = () =>  this.Transition
     document.body.classList.remove('js-is-loading')
+    this.returnTo = 0
   }
 
   init = () => {
@@ -48,8 +49,8 @@ class App {
     Barba.Dispatcher.on('linkClicked', el => {
       this.clickedEl = el
       console.log(el, Barba.HistoryManager.prevStatus())
-      // if (Barba.HistoryManager.prevStatus().namespace === 'home') {
-      //   this.returnTo = this.clickedEl && this.clickedEl.offsetTop;
+      console.log(this.clickedEl.offsetTop, document.body.scrollTop)
+      // this.returnTo = this.clickedEl && this.clickedEl.offsetTop;
       //   if (this.wrapper) {
       //     this.wrapper.scrollTop = parseInt(document.body.setAttribute('data-scroll-start', this.returnTo), 10);
       //   }

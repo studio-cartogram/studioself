@@ -50,9 +50,6 @@ Typography
   font-family: 'Folioself';
   src: url("../fonts/folioself-book-webfont.woff2") format("woff2"), url("../fonts/folioself-book-webfont.woff") format("woff"); }
 @font-face {
-  font-family: 'TimesTen';
-  src: url("../fonts/33FC3D_0_0.woff2") format("woff2"), url("../fonts/33FC3D_0_0.woff") format("woff"); }
-@font-face {
   font-family: 'TimesTenItalic';
   src: url("../fonts/33FC3D_1_0.woff2") format("woff2"), url("../fonts/33FC3D_1_0.woff") format("woff"); }
 /* =========================================
@@ -1355,12 +1352,17 @@ body,
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "TimesTen", serif;
+  font-family: "Life Roman", serif;
   font-size: 20px;
   line-height: 1.3;
   text-align: center;
   font-variant-ligatures: normal;
   font-variant-ligatures: common-ligatures;
+  -moz-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
+  -ms-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
+  -o-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
+  -webkit-font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
+  font-feature-settings: "liga" 1, "dlig" 1, "hlig" 1, "clig" 1;
   -webkit-font-feature-settings: "liga", "dlig", "onum";
   -moz-font-feature-settings: "liga", "dlig", "onum";
   -ms-font-feature-settings: "liga", "dlig", "onum";
@@ -1377,7 +1379,7 @@ html {
       font-size: 34px; } }
 
 .serif {
-  font-family: "TimesTen", serif !important; }
+  font-family: "Life Roman", serif !important; }
 
 b,
 strong,
@@ -1388,7 +1390,7 @@ strong,
 em,
 i {
   font-style: normal;
-  font-family: "TimesTenItalic", serif !important; }
+  font-family: "Life Italic", serif !important; }
 
 .format {
   text-align: left; }
@@ -1453,7 +1455,7 @@ h1, .alpha {
       font-size: 1em; } }
 
 h2, .beta {
-  font-family: "TimesTen", serif;
+  font-family: "Life Roman", serif;
   font-size: 1em;
   font-weight: 400; }
   @media all and (min-width: 768px) {
@@ -1472,7 +1474,7 @@ h5, .epsilon {
 
 h6 {
   font-size: 1em;
-  font-family: "TimesTen", serif; }
+  font-family: "Life Roman", serif; }
 
 /* =========================================
 Paragraph Typography
@@ -1700,10 +1702,6 @@ img:after {
 
 .project__project {
   padding-bottom: 20px; }
-  @media all and (min-width: 768px) {
-    .project__project {
-      max-width: 480px;
-      padding: 40px; } }
   @media all and (min-width: 1640px) {
     .project__project {
       max-width: 800px; } }
