@@ -7,7 +7,9 @@
 
 .project__project {
   padding-bottom: $d-duoHalf;
+  width: 100%;
   @include bp($bp-tablet) {
+    width: auto;
     // padding: $d-quin;
   }
 

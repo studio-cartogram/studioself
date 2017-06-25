@@ -1701,7 +1701,11 @@ img:after {
   flex-wrap: wrap; }
 
 .project__project {
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  width: 100%; }
+  @media all and (min-width: 768px) {
+    .project__project {
+      width: auto; } }
   @media all and (min-width: 1640px) {
     .project__project {
       max-width: 800px; } }
