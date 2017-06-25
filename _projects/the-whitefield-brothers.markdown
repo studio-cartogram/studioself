@@ -7,6 +7,7 @@ thumbnail:
 images:
 - "/uploads/WhitefieldBrothers_1.jpg"
 - "/uploads/WhitefieldBrothers_22.jpg"
+- "/uploads/WhitefieldBrothers8.jpg"
 - "/uploads/WhitefieldBrothers_2.jpg"
 - "/uploads/WhitefieldBrothers_4.jpg"
 - "/uploads/WhitefieldBrothers7.jpg"
