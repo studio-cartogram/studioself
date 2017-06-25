@@ -24,7 +24,7 @@ layout: default
           <figure class="project__thumb ratio-container unknown-ratio-container">
           {% endcomment %}
 
-          <img class="project__thumb" src="{{ project.thumbnail.image }}" />
+          <img class="project__thumb lazyload" data-src="{{ project.thumbnail.image }}" />
 
           {% comment %}
           </figure>

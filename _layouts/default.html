@@ -1,3 +1,13 @@
+{% if page.path == 'index.html' %}
+
+{% assign namespace = 'home' %}
+
+{% else %}
+
+{% assign namespace = 'single' %}
+
+{% endif %}
+
 <!DOCTYPE html>
 <html>
 
@@ -13,7 +23,7 @@
 
     <div id="barba-wrapper">
 
-      <div class="barba-container" namespace="{{ page.path }}">
+      <div class="barba-container" data-namespace="{{ namespace }}">
 
         {{ content }}
 
