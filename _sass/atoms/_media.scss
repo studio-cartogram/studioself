@@ -40,9 +40,10 @@ img:after {
 }
 
 .project__image {
-  margin: 0 0 $d-duoHalf;
+  margin: 0 $d-duoHalf $d-duoHalf;
   @include bp($bp-tablet) {
-    margin: 0 calc(18% - #{$d-duoHalf}) $d-dec;
+    // margin: 0 calc(18% - #{$d-duoHalf}) $d-dec;
+    margin: 0 18% $d-dec;
   }
 }
 
