@@ -3,7 +3,7 @@ title: Winter Winds
 date: 2017-05-11 21:28:00 Z
 position: 20
 thumbnail:
-  image: "/uploads/PEHewitt_thumb-sm.jpg"
+  image: "/uploads/PEHewitt_thumb-sm-5659f5.jpg"
 images:
 - "/uploads/PEHewitt_1.jpg"
 - "/uploads/PEHewitt_2.jpg"
