@@ -3,7 +3,7 @@ title: The Wolf House
 date: 2017-05-10 19:54:00 Z
 position: 15
 thumbnail:
-  image: "/uploads/Wolf_thumb.jpg"
+  image: "/uploads/Wolf_thumb-sm.jpg"
 images:
 - "/uploads/Wolf_1.jpg"
 - "/uploads/Wolf_2.jpg"
