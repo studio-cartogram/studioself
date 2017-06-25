@@ -10,7 +10,7 @@
   width: 100%;
   @include bp($bp-tablet) {
     width: auto;
-    // padding: $d-quin;
+    padding: $d-quin $d-quad;
   }
 
   @include bp($bp-desktop) {

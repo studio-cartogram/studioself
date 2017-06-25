@@ -1705,7 +1705,8 @@ img:after {
   width: 100%; }
   @media all and (min-width: 768px) {
     .project__project {
-      width: auto; } }
+      width: auto;
+      padding: 40px 32px; } }
   @media all and (min-width: 1640px) {
     .project__project {
       max-width: 800px; } }

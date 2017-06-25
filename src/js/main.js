@@ -43,6 +43,7 @@ class App {
 
     Barba.Dispatcher.on('linkClicked', el => {
       const currentStatus = Barba.HistoryManager.currentStatus()
+      // this.returnTo = (el ? el.offsetTop : 0)
       this.returnTo = (el ? el.offsetTop : 0)
       if (currentStatus && currentStatus.namespace === 'home') {
         document.body.setAttribute('data-scroll-start', this.returnTo)
