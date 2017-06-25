@@ -4,6 +4,8 @@ date: 2017-05-13 22:22:00 Z
 position: 5
 thumbnail:
   image: "/uploads/OBJKT_thumb-sm-5cce2e.jpg"
+  height: 480
+  width: 480
 images:
 - "/uploads/OBJKT_1.jpg"
 - "/uploads/OBJKT_2.jpg"

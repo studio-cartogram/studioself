@@ -5,6 +5,8 @@ published: false
 position: 11
 thumbnail:
   image: "/uploads/WaywardArts_thumb-sm.jpg"
+  height: 640
+  width: 447
 images:
 - "/uploads/WaywardArts_1.jpg"
 - "/uploads/WaywardArts_2.jpg"

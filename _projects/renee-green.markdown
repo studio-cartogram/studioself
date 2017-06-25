@@ -4,6 +4,8 @@ date: 2017-05-14 15:38:00 Z
 position: 8
 thumbnail:
   image: "/uploads/ReneeGreen_thumb-sm.jpg"
+  height: 640
+  width: 472
 images:
 - "/uploads/ReneeGreen_1.jpg"
 - "/uploads/ReneeGreen_2.jpg"
