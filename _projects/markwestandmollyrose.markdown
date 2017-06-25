@@ -3,7 +3,7 @@ title: Mark West and Molly Rose
 date: 2017-05-03 20:31:00 Z
 position: 4
 thumbnail:
-  image: "/uploads/MarkWestMollyRose_thumb.jpg"
+  image: "/uploads/MarkWestMollyRose_thumb-sm.jpg"
 images:
 - "/uploads/MarkWestMollyRose_1.jpg"
 - "/uploads/MarkWestMollyRose_2.jpg"
