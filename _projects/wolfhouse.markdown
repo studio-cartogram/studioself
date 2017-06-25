@@ -4,6 +4,8 @@ date: 2017-05-10 19:54:00 Z
 position: 15
 thumbnail:
   image: "/uploads/Wolf_thumb-sm.jpg"
+  height: 640
+  width: 516
 images:
 - "/uploads/Wolf_1.jpg"
 - "/uploads/Wolf_2.jpg"

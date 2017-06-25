@@ -4,6 +4,8 @@ date: 2017-06-06 00:25:00 Z
 position: 13
 thumbnail:
   image: "/uploads/ConcreteBox_1-sm-39a67f.jpg"
+  height: 443
+  width: 620
 images:
 - "/uploads/ConcreteBox_1.jpg"
 - "/uploads/ConcreteBox_3.jpg"

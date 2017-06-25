@@ -4,6 +4,8 @@ date: 2017-05-17 16:19:00 Z
 position: 16
 thumbnail:
   image: "/uploads/KarlHector_thumb-sm.jpg"
+  height: 560
+  width: 560
 images:
 - "/uploads/KarlHector_1.jpg"
 - "/uploads/KarlHector_2.jpg"
