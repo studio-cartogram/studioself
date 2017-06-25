@@ -5,12 +5,12 @@ position: 7
 thumbnail:
   image: "/uploads/Matter_thumb.jpg"
 images:
-- "/uploads/Matter_card1.jpg"
-- "/uploads/Matter_card2.jpg"
 - "/uploads/Matter_card3.jpg"
+- "/uploads/Matter_card2.jpg"
+- "/uploads/Matter_card1.jpg"
 - "/uploads/Matter_envelope.jpg"
-- "/uploads/Matter_program.jpg"
 - "/uploads/Matter_postcard1.jpg"
+- "/uploads/Matter_program.jpg"
 - "/uploads/Matter_postcard2.jpg"
 - "/uploads/Matter_postcard3.jpg"
 - "/uploads/Matter_postcard4.jpg"
