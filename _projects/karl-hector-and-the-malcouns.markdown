@@ -3,7 +3,7 @@ title: Karl Hector and The Malcouns
 date: 2017-05-17 16:19:00 Z
 position: 16
 thumbnail:
-  image: "/uploads/KarlHector_thumb.jpg"
+  image: "/uploads/KarlHector_thumb-sm.jpg"
 images:
 - "/uploads/KarlHector_1.jpg"
 - "/uploads/KarlHector_2.jpg"

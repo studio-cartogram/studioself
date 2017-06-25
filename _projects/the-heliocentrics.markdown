@@ -3,7 +3,7 @@ title: The Heliocentrics
 date: 2017-05-13 20:52:00 Z
 position: 18
 thumbnail:
-  image: "/uploads/Helio_thumb.jpg"
+  image: "/uploads/Helio_thumb-sm.jpg"
 images:
 - "/uploads/Helio_1.jpg"
 - "/uploads/Helio_3.jpg"
