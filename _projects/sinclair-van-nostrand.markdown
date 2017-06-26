@@ -3,7 +3,7 @@ title: Sinclair van Nostrand
 date: 2017-05-04 16:01:00 Z
 position: 3
 thumbnail:
-  image: "/uploads/SvN_thumb-sm-694996.jpg"
+  image: "/uploads/SvN_thumb-sm-cb190c.jpg"
   height: 492
   width: 600
 images:
