@@ -1,7 +1,7 @@
 ---
 title: Sinclair van Nostrand
 date: 2017-05-04 16:01:00 Z
-position: 3
+position: 4
 thumbnail:
   image: "/uploads/SvN_thumb-sm-cb190c.jpg"
   height: 492
