@@ -20,6 +20,7 @@ images:
 - "/uploads/TSSD_11.jpg"
 - "/uploads/TSSD_12.jpg"
 - "/uploads/TSSD_13.jpg"
+- "/uploads/TSSD_15.jpg"
 - "/uploads/TSSD_14.jpg"
 ---
 
