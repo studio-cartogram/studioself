@@ -4,8 +4,8 @@ date: 2017-06-13 17:17:00 Z
 position: 3
 thumbnail:
   image: "/uploads/TSSD_1-sm-449a6e.jpg"
-  height: 400
-  width: 560
+  height: 700
+  width: 700
 images:
 - "/uploads/TSSD_1.jpg"
 - "/uploads/TSSD_3.jpg"
