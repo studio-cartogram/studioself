@@ -4,8 +4,8 @@ date: 2017-05-01 16:16:00 Z
 position: 10
 thumbnail:
   image: "/uploads/DTAH_thumb.jpg"
-  height: 443
-  width: 620
+  height: 800
+  width: 600
 images:
 - "/uploads/DTAH_1.jpg"
 - "/uploads/DTAH_2.jpg"
