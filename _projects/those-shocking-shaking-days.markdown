@@ -19,8 +19,8 @@ images:
 - "/uploads/TSSD_10.jpg"
 - "/uploads/TSSD_11.jpg"
 - "/uploads/TSSD_12.jpg"
-- "/uploads/TSSD_13.jpg"
 - "/uploads/TSSD_14.jpg"
+- 
 ---
 
 Record packaging for *Those Shocking, Shaking Days*, an anthology that represents the Indonesian psychedelic and progressive rock scene that flowered in Jakarta in the early 1970s. The booklets for both formats feature extensive liner notes, archival photography, and background information. In addition to the sometimes outlandish photography (and outfits), bold typography and a bright colour palette try to capture the brash and vibrant energy of the psychedelic era. With contributions by Jason “Moss” Connoy, Indonesian rock legend Benny Soebarjda, and researcher Chandra Drews, an Indonesian-national who assisted in assembling the liner notes for the compilation. 
