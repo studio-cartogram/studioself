@@ -3,7 +3,7 @@ title: Those Shocking Shaking Days
 date: 2017-06-13 17:17:00 Z
 position: 3
 thumbnail:
-  image: "/uploads/TSSD_1-sm-449a6e.jpg"
+  image: "/uploads/TSSD_thumb.jpg"
   height: 700
   width: 700
 images:
