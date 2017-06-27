@@ -4,8 +4,8 @@ date: 2017-05-03 20:31:00 Z
 position: 3
 thumbnail:
   image: "/uploads/MarkWestMollyRose_thumb.jpg"
-  height: 630
-  width: 800
+  height: 660
+  width: 840
 images:
 - "/uploads/MarkWestMollyRose_1.jpg"
 - "/uploads/MarkWestMollyRose_2.jpg"
