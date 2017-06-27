@@ -3,9 +3,9 @@ title: Keilhauer and EOOS
 date: 2017-06-02 17:43:00 Z
 position: 1
 thumbnail:
-  image: "/uploads/KH_EOOS_thumb-sm.jpg"
-  height: 640
-  width: 522
+  image: "/uploads/KH_EOOS_thumb.jpg"
+  height: 800
+  width: 600
 images:
 - "/uploads/KH_EOOS_1.jpg"
 - "/uploads/KH_EOOS_2.jpg"
