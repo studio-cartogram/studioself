@@ -3,9 +3,9 @@ title: St. Malo Fine Foods
 date: 2017-05-13 03:56:00 Z
 position: 0
 thumbnail:
-  image: "/uploads/StMalo_thumb-sm.jpg"
-  width: 515
-  height: 640
+  image: "/uploads/StMalo_thumb.jpg"
+  height: 700
+  width: 700
 images:
 - "/uploads/StMalo_pack0.jpg"
 - "/uploads/StMalo_pack1.jpg"
