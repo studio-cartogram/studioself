@@ -21,13 +21,13 @@ layout: default
     {% assign ratio = height | divided_by: width %}
     {% assign percent = ratio | times: 100 %}
 
-    <article class="project__project">
+    <article class="project__project" style="max-width: {{ width }}px;">
 
         <a class="project__link anchor--with-target" href="{{ project.url | prepend: site.baseurl }}">
 
-          <figure class="project__thumb ratio-container" style="height: {{ height }}px; width: {{ width }}px; padding-bottom: {{ percent }}%" >
+          <figure class="project__thumb ratio-container" style="max-width: {{ width }}px; padding-bottom: {{ percent }}%" >
 
-            <img class="project__thumb lazyload" data-src="{{ project.thumbnail.image }}" />
+            <img class="lazyload" data-src="{{ project.thumbnail.image }}" />
 
           </figure>
 

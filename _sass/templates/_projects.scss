@@ -9,7 +9,6 @@
   padding-bottom: $d-duoHalf;
   width: 100%;
   @include bp($bp-tablet) {
-    width: auto;
     padding: $d-quin $d-quad;
   }
 
@@ -18,13 +17,8 @@
   }
 }
 
-.project__thumb {
-  padding-bottom: $d-duo;
-}
-
 .project__link {
   display: block;
-  min-height: $d-dec * 3;
   width: 100%;
 }
 
