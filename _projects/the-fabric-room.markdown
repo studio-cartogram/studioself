@@ -3,7 +3,9 @@ title: The Fabric Room
 date: 2017-05-15 20:14:00 Z
 position: 19
 thumbnail:
-  image: "/uploads/TheFabricRoom_thumb.jpg"
+  image: "/uploads/TheFabricRoom_thumb-sm-419c76.jpg"
+  height: 496
+  width: 600
 images:
 - "/uploads/TheFabricRoom_1.jpg"
 - "/uploads/TheFabricRoom_2.jpg"

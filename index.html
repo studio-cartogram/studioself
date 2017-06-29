@@ -16,21 +16,26 @@ layout: default
 
     {% for project in sorted_projects %}
 
-      <article class="project__project">
+    {% assign height = project.thumbnail.height | plus: 0.0 %}
+    {% assign width = project.thumbnail.width | plus: 0.0 %}
+    {% assign ratio = height | divided_by: width %}
+    {% assign percent = ratio | times: 100 %}
+
+    <article class="project__project" style="max-width: {{ width }}px;">
 
         <a class="project__link anchor--with-target" href="{{ project.url | prepend: site.baseurl }}">
 
-          {% comment %}
-          <figure class="project__thumb ratio-container unknown-ratio-container">
-          {% endcomment %}
+          <figure class="project__thumb ratio-container" style="max-width: {{ width }}px; padding-bottom: {{ percent }}%" >
 
-          <img class="project__thumb" src="{{ project.thumbnail.image }}" />
+            <img class="lazyload" data-src="{{ project.thumbnail.image }}" />
 
-          {% comment %}
           </figure>
-          {% endcomment %}
 
-          <h2 class="project__text anchor__target">{{ project.title }}</h2>
+          <h2 class="project__text anchor__target">
+
+            {{ project.title }}
+
+          </h2>
 
         </a>
 

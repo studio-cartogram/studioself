@@ -10,8 +10,6 @@ import Barba from 'barba.js'
 import log from './utils/log'
 import './vendor/webpack.publicPath'
 import Curtain from './scripts/Curtain'
-// import Scroll from './scripts/Scroll'
-// import Fade from './scripts/Fade'
 import removeClasses from './utils/removeClasses'
 import imagesLoaded from 'imagesloaded'
 import addListenerMulti from './utils/addListenerMulti'
@@ -37,29 +35,29 @@ class App {
   init = () => {
     this.curtainEl = document.getElementById('js-curtain')
     this.curtain = new Curtain(this.curtainEl)
-    // this.scroll = new Scroll()
-    // this.fade = new Fade()
     this.initTransitions()
     this.initSaver()
-    // this.loadImages()
     Barba.Dispatcher.on('initStateChange', () => {
       document.body.classList.add('js-is-moving')
     })
 
     Barba.Dispatcher.on('linkClicked', el => {
-      this.clickedEl = el
-      console.log(el, Barba.HistoryManager.prevStatus())
-      console.log(this.clickedEl.offsetTop, document.body.scrollTop)
-      // this.returnTo = this.clickedEl && this.clickedEl.offsetTop;
-      //   if (this.wrapper) {
-      //     this.wrapper.scrollTop = parseInt(document.body.setAttribute('data-scroll-start', this.returnTo), 10);
-      //   }
-      // }
+      const currentStatus = Barba.HistoryManager.currentStatus()
+      // this.returnTo = (el ? el.offsetTop : 0)
+      this.returnTo = (el ? el.offsetTop : 0)
+      if (currentStatus && currentStatus.namespace === 'home') {
+        document.body.setAttribute('data-scroll-start', this.returnTo)
+      }
     })
 
-    Barba.Dispatcher.on('transitionCompleted', (currentStatus, prevStatus) => {
+    Barba.Dispatcher.on('transitionCompleted', (currentStatus, ps) => {
       document.body.classList.remove('js-is-moving')
+      if (currentStatus && currentStatus.namespace === 'home') {
+        document.body.scrollTop = parseInt(document.body.getAttribute('data-scroll-start'), 10)
+      }
     })
+
+
   }
 
   initTransitions = () => {

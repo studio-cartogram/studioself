@@ -4,6 +4,8 @@ date: 2017-05-13 20:52:00 Z
 position: 18
 thumbnail:
   image: "/uploads/Helio_thumb.jpg"
+  height: 700
+  width: 700
 images:
 - "/uploads/Helio_1.jpg"
 - "/uploads/Helio_3.jpg"

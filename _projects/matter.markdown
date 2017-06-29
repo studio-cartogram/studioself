@@ -3,7 +3,9 @@ title: Matter
 date: 2017-06-04 15:42:00 Z
 position: 7
 thumbnail:
-  image: "/uploads/Matter_thumb.jpg"
+  image: "/uploads/Matter_thumb-sm-623a6d.jpg"
+  height: 512
+  width: 600
 images:
 - "/uploads/Matter_sign1.jpg"
 - "/uploads/Matter_card3.jpg"

@@ -1,10 +1,21 @@
-{% if page.next.url %}
 
-{% assign next = page.next.url %}
+{% assign sorted_projects = site.projects | sort:"position" %}
+{% for project in sorted_projects %}
+  {% if project == page %}
+    {% assign next_project_index = forloop.index %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% assign next_project = sorted_projects[next_project_index] %}
+
+{% if next_project %}
+
+  {% assign next = next_project.url %}
 
 {% else %}
 
-{% assign next = site.projects[0].url %}
+  {% assign next = sorted_projects[0].url %}
 
 {% endif %}
 
