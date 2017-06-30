@@ -17,10 +17,10 @@ images:
 - "/uploads/Matter_program2.jpg"
 - "/uploads/Matter_program3.jpg"
 - "/uploads/Matter_postcard2.jpg"
-- "/uploads/Matter_postcard4.jpg"
-- "/uploads/Matter_postcard3.jpg"
 - "/uploads/Matter_postcard5.jpg"
+- "/uploads/Matter_postcard3.jpg"
 - "/uploads/Matter_postcard6.jpg"
+- "/uploads/Matter_postcard4.jpg"
 ---
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
