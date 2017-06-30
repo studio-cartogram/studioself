@@ -3,7 +3,7 @@ title: Elte Market
 date: 2017-05-11 20:33:00 Z
 position: 9
 thumbnail:
-  image: "/uploads/MKT_thumb-sm-422ded.jpg"
+  image: "/uploads/MKT_thumb.jpg"
   height: 510
   width: 480
 images:
