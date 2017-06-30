@@ -4,8 +4,8 @@ date: 2017-06-04 15:42:00 Z
 position: 7
 thumbnail:
   image: "/uploads/Matter_thumb.jpg"
-  height: 750
-  width: 900
+  height: 675
+  width: 800
 images:
 - "/uploads/Matter_sign1.jpg"
 - "/uploads/Matter_card3.jpg"
