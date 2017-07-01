@@ -12,6 +12,7 @@ images:
 - "/uploads/Matter_card2.jpg"
 - "/uploads/Matter_card1.jpg"
 - "/uploads/Matter_envelope.jpg"
+- "/uploads/Matter_sign2.jpg"
 - "/uploads/Matter_postcard1.jpg"
 - "/uploads/Matter_program.jpg"
 - "/uploads/Matter_program2.jpg"
