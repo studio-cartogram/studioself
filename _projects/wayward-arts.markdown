@@ -2,7 +2,7 @@
 title: Wayward Arts
 date: 2017-06-06 23:18:00 Z
 published: false
-position: 13
+position: 14
 thumbnail:
   image: "/uploads/WaywardArts_thumb-sm.jpg"
   height: 640
