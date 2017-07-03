@@ -4,8 +4,8 @@ date: 2017-05-18 20:18:00 Z
 position: 6
 thumbnail:
   image: "/uploads/NYB_thumb.jpg"
-  height: 700
-  width: 700
+  height: 600
+  width: 800
 images:
 - "/uploads/NYB_1.jpg"
 - "/uploads/NYB_2.jpg"
