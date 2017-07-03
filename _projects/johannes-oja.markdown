@@ -4,8 +4,8 @@ date: 2017-05-13 22:20:00 Z
 position: 16
 thumbnail:
   image: "/uploads/Vanaisa_thumb-sm.jpg"
-  height: 640
-  width: 461
+  height: 800
+  width: 600
 images:
 - "/uploads/Vanaisa_1.jpg"
 - "/uploads/Vanaisa_2.jpg"
