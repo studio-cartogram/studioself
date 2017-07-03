@@ -1,7 +1,7 @@
 ---
 title: The Whitefield Brothers
 date: 2017-05-18 22:38:00 Z
-position: 13
+position: 15
 thumbnail:
   image: "/uploads/WhitefieldBrothers_thumb.jpg"
   height: 700
