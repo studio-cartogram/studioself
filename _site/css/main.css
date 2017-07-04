@@ -50,8 +50,11 @@ Typography
   font-family: 'Folioself';
   src: url("../fonts/folioself-book-webfont.woff2") format("woff2"), url("../fonts/folioself-book-webfont.woff") format("woff"); }
 @font-face {
-  font-family: 'TimesTenItalic';
-  src: url("../fonts/33FC3D_1_0.woff2") format("woff2"), url("../fonts/33FC3D_1_0.woff") format("woff"); }
+  font-family: 'Life Roman';
+  src: url("../fonts/341CD8_0_0.woff2") format("woff2"), url("../fonts/341CD8_0_0.woff") format("woff"); }
+@font-face {
+  font-family: 'Life Italic';
+  src: url("../fonts/341CD8_1_0.woff2") format("woff2"), url("../fonts/341CD8_1_0.woff") format("woff"); }
 /* =========================================
 Dimensions
 ========================================= */
