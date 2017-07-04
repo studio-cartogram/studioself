@@ -15,16 +15,17 @@ Typography
        url($p-fonts + 'folioself-book-webfont.woff') format('woff');
 }
 
-// @font-face {
-//   font-family: 'TimesTen';
-//   src: url($p-fonts + '33FC3D_0_0.woff2') format('woff2'),
-//        url($p-fonts + '33FC3D_0_0.woff') format('woff');
-// }
+@font-face {
+  font-family: 'Life Roman';
+  src: url($p-fonts + '341CD8_0_0.woff2') format('woff2'),
+       url($p-fonts + '341CD8_0_0.woff') format('woff');
+}
+
 
 @font-face {
-  font-family: 'TimesTenItalic';
-  src: url($p-fonts + '33FC3D_1_0.woff2') format('woff2'),
-       url($p-fonts + '33FC3D_1_0.woff') format('woff');
+  font-family: 'Life Italic';
+  src: url($p-fonts + '341CD8_1_0.woff2') format('woff2'),
+       url($p-fonts + '341CD8_1_0.woff') format('woff');
 }
 
 
