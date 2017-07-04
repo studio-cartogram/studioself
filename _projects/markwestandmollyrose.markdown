@@ -1,7 +1,7 @@
 ---
 title: Mark West and Molly Rose
 date: 2017-05-03 20:31:00 Z
-position: 3
+position: 8
 thumbnail:
   image: "/uploads/MarkWestMollyRose_thumb.jpg"
   height: 675
