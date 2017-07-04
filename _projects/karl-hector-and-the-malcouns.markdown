@@ -3,9 +3,9 @@ title: Karl Hector and The Malcouns
 date: 2017-05-17 16:19:00 Z
 position: 14
 thumbnail:
-  image: "/uploads/KarlHector_thumb-sm.jpg"
-  height: 560
-  width: 560
+  image: "/uploads/KarlHector_thumb.jpg"
+  height: 700
+  width: 700
 images:
 - "/uploads/KarlHector_1.jpg"
 - "/uploads/KarlHector_2.jpg"
