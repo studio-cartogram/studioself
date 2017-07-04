@@ -3,9 +3,9 @@ title: Renée Green
 date: 2017-05-14 15:38:00 Z
 position: 11
 thumbnail:
-  image: "/uploads/ReneeGreen_thumb-sm.jpg"
-  height: 640
-  width: 472
+  image: "/uploads/ReneeGreen_thumb.jpg"
+  height: 800
+  width: 590
 images:
 - "/uploads/ReneeGreen_1.jpg"
 - "/uploads/ReneeGreen_2.jpg"
