@@ -4,8 +4,8 @@ date: 2017-05-11 20:33:00 Z
 position: 10
 thumbnail:
   image: "/uploads/MKT_thumb.jpg"
-  height: 690
-  width: 650
+  height: 700
+  width: 660
 images:
 - "/uploads/MKT_8.jpg"
 - "/uploads/MKT_9.jpg"
