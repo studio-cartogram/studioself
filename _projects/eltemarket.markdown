@@ -5,7 +5,7 @@ position: 10
 thumbnail:
   image: "/uploads/MKT_thumb.jpg"
   height: 775
-  width: 733
+  width: 730
 images:
 - "/uploads/MKT_8.jpg"
 - "/uploads/MKT_9.jpg"
