@@ -5,7 +5,7 @@ position: 3
 thumbnail:
   image: "/uploads/Matter_thumb.jpg"
   height: 600
-  width: 700
+  width: 800
 images:
 - "/uploads/Matter_sign1.jpg"
 - "/uploads/Matter_card3.jpg"
