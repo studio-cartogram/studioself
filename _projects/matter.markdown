@@ -1,5 +1,5 @@
 ---
-title: Matter
+title: Matter Gallery
 date: 2017-06-04 15:42:00 Z
 position: 3
 thumbnail:
