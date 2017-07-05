@@ -20,6 +20,7 @@ images:
 - "/uploads/Matter_program3.jpg"
 - "/uploads/Matter_program4.jpg"
 - "/uploads/Matter_books.jpg"
+- "/uploads/Matter_life.jpg"
 ---
 
 Naming, identity, signage, printed materials and custom typography for Matter, a contemporary art gallery showcasing emerging artists from around the globe. With a limited budget and the pressure of opening a new gallery in an already crowded art market, a typographic identity was proposed to establish a unique tone of voice for the gallery. A very controlled approach using only one typeface and one colour at a time ensured a level of consistency that would be unmistakable. By using repetition and strict, highly structured layouts, the result is a rigid system with expressive typographic moments. Extra lengths were taken to make sure every piece produced, whether a letter, book or invitation, would fit a single size of envelope, eliminating any unnecessary mailing costs. Due to the wordmark essentially being just another typographic element (even appearing at the same point size as the display text), a custom typeface was created. “Life Thicc” is a custom weight of Wilhelm Bilz and Francesco Simoncini’s typeface Life, constructed by adding a heavy stroke to the existing letterforms before carefully manipulating them to ensure some consistency with the Roman weight.
