@@ -8,7 +8,6 @@ thumbnail:
   height: 600
   width: 800
 images:
-- "/uploads/WSF_envelope.jpg"
 - "/uploads/SoulCal_LPcover.jpg"
 - "/uploads/SoulCal_LPinside.jpg"
 - "/uploads/SoulCal_book.jpg"
