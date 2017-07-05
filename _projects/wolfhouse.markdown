@@ -18,6 +18,7 @@ images:
 - "/uploads/Wolf_9.jpg"
 - "/uploads/Wolf_12.jpg"
 - "/uploads/Wolf_13.jpg"
+- "/uploads/Wolf_14.jpg"
 ---
 
 Book design for *The Wolf House*, commissioned to assist in the sale of the house by its original owners Lawrence and Mary Wolf. Designed by American architect Barton Myers in 1974, the award-winning Wolf House has become a well known example of glass and steel residential architecture in Toronto. The house is defined by it’s exposed industrial elements and mechanical/electrical systems, steel structure, and its glass curtain exterior which is open to a wooded ravine in Toronto’s Rosedale valley. A day was spent on location shooting the house in its current state with Colin Faulkner. The book is structured with the full-colour photography sandwiching the archival photography and biographical information, printed on grey uncoated paper, in the centre. The typeface used is an early version of Meteor, an interpretation of early grotesques with geometric construction.
