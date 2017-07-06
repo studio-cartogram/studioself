@@ -12,6 +12,6 @@ images:
 - "/uploads/Helio_2.jpg"
 ---
 
-Record packaging design for The Heliocentric’s *Sirius B*, the third 12 inch single from their album *Out There*, released on Now-Again Records. The London-based Heliocentrics are centred around drummer Malcolm Catto, and are known for their collaborations with Ethio jazz pioneer Mulatu Astatke, jazzman Lloyd Miller and Afro soul Godfather, Orlando Julius. Taking its cue from the title, the artwork is of an astrolabe, an ancient device historically used by astronomers and navigators to identify stars or planets.
+Record packaging design for The Heliocentric’s *Sirius B*, the third 12 inch single from their album *Out There*, released on Now-Again Records. The London-based Heliocentrics are centred around drummer Malcolm Catto, and are known for their collaborations with Ethio jazz pioneer Mulatu Astatke, jazzman Lloyd Miller and Afro soul Godfather, Orlando Julius. Taking its cue from the title, the artwork is of an astrolabe, an ancient device historically used by astronomers and navigators to identify stars and planets.
 
 Completed in 2008 for Way Shape Form.
