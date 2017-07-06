@@ -7,7 +7,6 @@ thumbnail:
   height: 600
   width: 750
 images:
-- "/uploads/TheFabricRoom_12.jpg"
 - "/uploads/TheFabricRoom_1.jpg"
 - "/uploads/TheFabricRoom_2.jpg"
 - "/uploads/TheFabricRoom_3.jpg"
