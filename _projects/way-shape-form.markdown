@@ -1,7 +1,7 @@
 ---
 title: Way Shape Form
 date: 2017-07-05 19:20:00 Z
-position: 20
+position: 19
 thumbnail:
   image: "/uploads/Misc_thumb.jpg"
   height: 600
