@@ -1694,18 +1694,26 @@ img:after {
 .projects {
   display: flex;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap; }
 
 .project__project {
-  padding-bottom: 20px;
-  width: 100%; }
+  width: 100%;
+  padding: 0 0 20px; }
   @media all and (min-width: 768px) {
     .project__project {
-      padding: 40px 32px; } }
-  @media all and (min-width: 1640px) {
+      padding: 32px 32px; } }
+  @media all and (min-width: 1024px) {
     .project__project {
-      max-width: 800px; } }
+      width: 50%; } }
+  @media all and (min-width: 1440px) {
+    .project__project {
+      max-width: 800px;
+      padding: 40px 40px; } }
+  @media all and (min-width: 1920px) {
+    .project__project {
+      padding: 56px 48px;
+      background: red; } }
 
 .project__link {
   display: block;
