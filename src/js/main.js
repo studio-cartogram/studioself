@@ -4,6 +4,7 @@
  * js chunks
  *
  */
+
 import 'babel-polyfill'
 import debounce from 'lodash/debounce'
 import Barba from 'barba.js'
