@@ -10,6 +10,7 @@ images:
 - "/uploads/TheFabricRoom_1.jpg"
 - "/uploads/TheFabricRoom_2.jpg"
 - "/uploads/TheFabricRoom_3.jpg"
+- "/uploads/TheFabricRoom_12-3f3b8e.jpg"
 - "/uploads/TheFabricRoom_4.jpg"
 - "/uploads/TheFabricRoom_5.jpg"
 - "/uploads/TheFabricRoom_12.jpg"
