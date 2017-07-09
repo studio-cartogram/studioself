@@ -1712,8 +1712,7 @@ img:after {
       padding: 40px 40px; } }
   @media all and (min-width: 1920px) {
     .project__project {
-      padding: 56px 48px;
-      background: red; } }
+      padding: 56px 48px; } }
 
 .project__link {
   display: block;
