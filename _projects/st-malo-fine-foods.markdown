@@ -23,6 +23,6 @@ images:
 - "/uploads/StMalo_web2.jpg"
 ---
 
-Naming, identity, website and packaging design for St. Malo Fine Foods, a specialty cooking oil producer based in Taiwan and Canada. Offering cold pressed avocado and organic canola oil, custom packaging was designed for the Asian market and gifting in particular. The name was suggested as a way of linking two locations where the cooking oils originate: the port city of St. Malo, France, and the town that bears its name in the prairies of Saskatchewan, Canada. Extensive prototyping was done for the boxes, with every detail considered. A custom vat-dyed grey card stock for the box sleeves was created when an adequate off the shelf solution wasn’t readily available. 
+Naming, identity, website and packaging created for St. Malo Fine Foods, a specialty cooking oil producer based in Taiwan and Canada, offering cold-pressed avocado and organic canola oil. Custom packaging was designed for the Asian market with plans to retail in North America. The name was suggested as a way of linking two locations where the cooking oils originate: the port city of St. Malo, France and the town that bears its name in the prairies of Saskatchewan, Canada. Extensive prototyping was done for the boxes, with every detail considered, including a custom vat-dyed grey card stock for the box sleeves when an adequate off the shelf solution wasn’t readily available. 
 
-Includes 1 Litre and 500 mL bottle packaging, premium double package, and a 32 page saddle stitched booklet, featuring nutritional information and recipes. Completed in 2016 for Concrete.
+Includes 2 × 1 L and 500 mL bottle boxes, premium double box, and a 32 page saddle stitched booklet featuring nutritional information and recipes. Completed in 2016 for Concrete.
