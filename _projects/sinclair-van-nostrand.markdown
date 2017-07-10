@@ -20,7 +20,7 @@ images:
 - "/uploads/SvN_11.jpg"
 ---
 
-Identity created for Sinclair Van Nostrand, architects and planners. SvN was formed when Planning Alliance and Regional Architects joined together 2015. The descriptor “Office for Practical Sciences” is a reference to the University of Toronto’s Department of Architecture, where both of the founding principals studied. The university’s architecture program was the first in Canada, originally established in 1890 as part of the School of Practical Science. Both principals felt that it was an appropriate reference to the history of their profession in Canada, while providing a current and accurate description of the pragmatic nature of their work. 
+Identity created for Sinclair van Nostrand, architects and planners. SvN was formed when Planning Alliance and Regional Architects joined together 2015. The descriptor “Office for Practical Sciences” is a reference to the University of Toronto’s Department of Architecture, where both of the founding principals studied. The University’s architecture program was the first in Canada, originally established in 1890 as part of the School of Practical Science. Both principals felt that it was an appropriate reference to the history of their profession in Canada, while providing a current and accurate description of the pragmatic nature of their work. 
 
 Includes......
 Completed in 2014 for Concrete, with John Pylypczak.
