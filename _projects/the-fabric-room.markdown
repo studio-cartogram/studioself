@@ -8,12 +8,13 @@ thumbnail:
   width: 750
 images:
 - "/uploads/TheFabricRoom_1.jpg"
-- "/uploads/TheFabricRoom_6.jpg"
 - "/uploads/TheFabricRoom_2.jpg"
 - "/uploads/TheFabricRoom_3.jpg"
+- "/uploads/TheFabricRoom_15.jpg"
 - "/uploads/TheFabricRoom_4.jpg"
 - "/uploads/TheFabricRoom_5.jpg"
 - "/uploads/TheFabricRoom_12.jpg"
+- "/uploads/TheFabricRoom_6.jpg"
 - "/uploads/TheFabricRoom_13.jpg"
 - "/uploads/TheFabricRoom_7.jpg"
 - "/uploads/TheFabricRoom_8.jpg"
