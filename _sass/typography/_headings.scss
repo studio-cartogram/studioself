@@ -22,7 +22,6 @@ h1 {
   font-family: $t-font-family;
   font-size: $t-font-size-alpha-mobile;
   font-weight: $t-font-weight-regular;
-  line-height: 1.5;
   @include bp($bp-tablet) {
     font-size: $t-font-size-alpha;
   }

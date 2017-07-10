@@ -1,20 +1,32 @@
 .projects {
   display: flex;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .project__project {
-  padding-bottom: $d-duoHalf;
   width: 100%;
+
+  padding: 0 0 $d-duoHalf;
+
   @include bp($bp-tablet) {
-    padding: $d-quin $d-quad;
+    padding: $d-quad $d-quad;
+  }
+
+  @include bp($bp-laptop) {
+    width: 50%;
   }
 
   @include bp($bp-desktop) {
     max-width: 800px;
+    padding: $d-quin $d-quin;
   }
+
+  @include bp($bp-widescreen) {
+    padding: $d-sep $d-sex;
+  }
+
 }
 
 .project__link {

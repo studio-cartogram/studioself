@@ -6,26 +6,21 @@ class Curtain {
     this.curtain = el
     // this.swoosh = el.querySelector('.js-curtain__swoosh')
     el.addEventListener('click', this.hide)
+    setTimeout(() => document.addEventListener('scroll', this.hide), 100)
+  }
+
+  isCurtainShown() {
+    return !!document.body.classList.contains('curtain--is-shown')
   }
 
   show = onComplete => {
     document.body.classList.add('curtain--is-shown')
-    // once(this.swoosh, 'animationend', () => {
-    //   if (onComplete && typeof onComplete === 'function') {
-    //     onComplete()
-    //   }
-    // })
   }
 
   hide = onComplete => {
-    document.body.classList.remove('curtain--is-shown')
-    // once(this.swoosh, 'animationend', () => {
-    //   document.body.classList.remove('curtain--is-shown')
-    //   document.body.classList.remove('curtain--is-hidden')
-    //   if (onComplete && typeof onComplete === 'function') {
-    //     onComplete()
-    //   }
-    // })
+    if(this.isCurtainShown()) {
+      document.body.classList.remove('curtain--is-shown')
+    }
   }
 }
 
