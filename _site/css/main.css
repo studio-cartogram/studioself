@@ -787,13 +787,11 @@ html,
 body {
   position: relative;
   height: 100%;
-  width: 100%;
-  flex-basis: 100%; }
+  width: 100%; }
 
 .site {
   display: flex;
   min-height: 100vh;
-  flex-basis: 100vh;
   flex-direction: column;
   background: #FFFFFF; }
 
@@ -814,8 +812,7 @@ Grid Component
 ========================================= */
 .container {
   position: relative;
-  margin: 0 auto;
-  flex-basis: 100%; }
+  margin: 0 auto; }
 
 .row {
   max-width: 1200px;
@@ -830,13 +827,11 @@ Grid Component
   align-items: center; }
 
 .row--full {
-  max-width: 100%;
-  flex-basis: 100%; }
+  max-width: 100%; }
 
 .column {
   flex: 0 0 auto;
-  width: 100%;
-  flex-basis: 100%; }
+  width: 100%; }
 
 .column-0 {
   flex-basis: 0%;

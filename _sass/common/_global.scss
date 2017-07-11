@@ -12,13 +12,11 @@ body {
   position: relative;
   height: 100%;
   width: 100%;
-  flex-basis: 100%;
 }
 
 .site {
   display: flex;
   min-height: 100vh;
-  flex-basis: 100vh;
   flex-direction: column;
   background: $ca-site-background;
 }
