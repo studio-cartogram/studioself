@@ -1,6 +1,6 @@
 ---
 title: Information
-date: 2017-04-20 07:21:00 Z
+date: 2017-04-20 03:21:00 -04:00
 ---
 
 Matthew Boyd is a Toronto based graphic designer and art director. I design books, identities, websites, typefaces and packaging for commercial and cultural clients alike. My practice is centred around the creation of thoughtful, meaningful work which aims to explore new and unexpected forms and ideas. My approach is based around discussion, research and in-depth exploration, always in close collaboration with my clients and partners. My wish is to work with people who are engaged with their audience so that together we can create work that communicates with a clear purpose.
@@ -17,6 +17,6 @@ I am always interested in new and exciting projects and collaborations. If you t
 
 * Matthew Boyd
 
-* Email [matthew@studio-self.com](mailto:matthew@studio-self.com)
+* Email [matthew@matthewboyd.studio](mailto:matthew@matthewboyd.studio)
 
 * Telephone [1 416 551 6015](tel:14165516015)
