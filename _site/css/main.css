@@ -1710,7 +1710,8 @@ img:after {
       padding: 32px 32px; } }
   @media all and (min-width: 1024px) {
     .project__project {
-      width: 50%; } }
+      width: 50%;
+      flex-basis: 50%; } }
   @media all and (min-width: 1440px) {
     .project__project {
       max-width: 800px;

@@ -16,6 +16,7 @@
 
   @include bp($bp-laptop) {
     width: 50%;
+    flex-basis: 50%;
   }
 
   @include bp($bp-desktop) {
