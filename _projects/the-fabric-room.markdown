@@ -1,6 +1,6 @@
 ---
 title: The Fabric Room
-date: 2017-05-15 20:14:00 Z
+date: 2017-05-15 16:14:00 -04:00
 position: 9
 thumbnail:
   image: "/uploads/TheFabricRoom_thumb.jpg"
@@ -15,7 +15,6 @@ images:
 - "/uploads/TheFabricRoom_5.jpg"
 - "/uploads/TheFabricRoom_12.jpg"
 - "/uploads/TheFabricRoom_6.jpg"
-- "/uploads/TheFabricRoom_13.jpg"
 - "/uploads/TheFabricRoom_7.jpg"
 - "/uploads/TheFabricRoom_8.jpg"
 - "/uploads/TheFabricRoom_9.jpg"
