@@ -6,7 +6,6 @@ Grid Component
 .container {
   position: relative;
   margin: 0 auto;
-  flex-basis: 100%;
 }
 
 .row {
@@ -26,13 +25,11 @@ Grid Component
 
 .row--full {
   max-width: 100%;
-  flex-basis: 100%;
 }
 
 .column {
   flex: 0 0 auto;
   width: 100%;
-  flex-basis: 100%;
 }
 
 @for $i from 0 to $d-grid-columns + 1 {
