@@ -1,11 +1,11 @@
 ---
 title: Johannes Oja
 date: 2017-05-13 22:20:00 Z
-position: 14
+position: 19
 thumbnail:
   image: "/uploads/Vanaisa_thumb.jpg"
   height: 800
-  width: 600
+  width: 570
 images:
 - "/uploads/Vanaisa_1.jpg"
 - "/uploads/Vanaisa_2.jpg"
