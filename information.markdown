@@ -17,6 +17,6 @@ I am always interested in new and exciting projects and collaborations. If you t
 
 * Matthew Boyd
 
-* Email [matthew@matthewboyd.studio](mailto:matthew@matthewboyd.studio)
+* Email [info@matthewboyd.studio](mailto:info@matthewboyd.studio)
 
 * Telephone [1 416 551 6015](tel:14165516015)
