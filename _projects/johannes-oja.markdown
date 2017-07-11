@@ -5,7 +5,7 @@ position: 14
 thumbnail:
   image: "/uploads/Vanaisa_thumb.jpg"
   height: 800
-  width: 600
+  width: 570
 images:
 - "/uploads/Vanaisa_1.jpg"
 - "/uploads/Vanaisa_2.jpg"
