@@ -25,4 +25,4 @@ images:
 
 Record packaging created for *Those Shocking, Shaking Days*, an anthology representing the Indonesian psychedelic and progressive rock scene that flowered in Jakarta in the early 1970s. The booklets for both formats feature extensive liner notes, archival photography, and background information. In addition to the sometimes outlandish photography (and outfits), bold typography and a bright colour palette try to capture the brash and vibrant energy of the psychedelic era. Contributions by Jason “Moss” Connoy, Indonesian rock legend Benny Soebarjda, and researcher Chandra Drews, who assisted in assembling the liner notes for the compilation. 
 
-Includes 3 × LP trifold sleeve with 24 page saddle stitched booklet, and CD with sleeve and 64 page booklet bound in sewn signatures. Completed in 2010 for Way Shape Form.
+Includes 3 × LP trifold sleeve with 24 page saddle stitched booklet, and CD sleeve with 64 page booklet bound in sewn signatures. Completed in 2010 for Way Shape Form.
