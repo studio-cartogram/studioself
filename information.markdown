@@ -7,7 +7,7 @@ Matthew Boyd is a Toronto based graphic designer and art director. I design book
 
 I have over 12 years of experience working for large and small clients in many different fields. Most recently I held the position of Design Director at Concrete, where I lead branding and packaging projects for a wide range of clients, always with a focus on critical details, typography and materials. Previously I was a founding partner of the studio Way Shape Form, which focused on the design of publications, printed materials and packaging for museums, publishers and record labels. My work has been recognized internationally by organizations like the Type Directors Club (US), Graphis (CH), and the ADCC (CA), and has been included in exhibitions and publications such as Graphic (KR). I hold a BFA in Graphic Design from the Art Center College of Design in Pasadena, California.
 
-I am always interested in new and exciting projects and collaborations. If you think that your project could benefit from my involvement, please don’t hesitate to get in touch.
+I am always interested in new and exciting projects and collaborations. If you think that your project could benefit from my involvement in any way, please don’t hesitate to get in touch.
 
 *  
 *  
@@ -17,6 +17,6 @@ I am always interested in new and exciting projects and collaborations. If you t
 
 * Matthew Boyd
 
-* Email [matthew@matthewboyd.studio](mailto:matthew@matthewboyd.studio)
+* Email [info@matthewboyd.studio](mailto:info@matthewboyd.studio)
 
 * Telephone [1 416 551 6015](tel:14165516015)
