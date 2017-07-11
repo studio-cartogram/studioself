@@ -1,7 +1,7 @@
 ---
 title: Objkt Company
 date: 2017-05-13 22:22:00 Z
-position: 5
+position: 6
 thumbnail:
   image: "/uploads/OBJKT_thumb.jpg"
   height: 700

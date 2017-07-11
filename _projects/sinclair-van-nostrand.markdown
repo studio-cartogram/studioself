@@ -1,7 +1,7 @@
 ---
 title: Sinclair van Nostrand
 date: 2017-05-04 16:01:00 Z
-position: 6
+position: 7
 thumbnail:
   image: "/uploads/SvN_thumb.jpg"
   height: 600
