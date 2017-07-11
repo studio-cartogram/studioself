@@ -28,4 +28,4 @@ Book designed for *Mark West And Molly Rose*, a collection of photographs by Jef
 
 After designing Jeff’s thesis book for his MFA in Photography from the Rhode Island School of Design, we were astonished to hear about the prison escape by two of his former subjects. So while Jeff corresponded with the John and Toby, and with their approval, we began to create a narrative structure around the projects which surrounded the events of the prison escape. Once we had a substantial framework for a publication, we approached Jason Fulford of J&L who graciously published the final form of this wonderfully bizarre love story.
 
-6 × 9 inches, 160 pages, softcover, edition of 1000. ISBN-13: 978-0-9799188-6-5. Completed in 2010 with River Jukes-Hudson for Way Shape Form. 
+Measures 6 × 9 inches, 160 pages, softcover, edition of 1000. ISBN-13: 978-0-9799188-6-5. Completed in 2010 with River Jukes-Hudson for Way Shape Form. 
