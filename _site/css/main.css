@@ -1714,6 +1714,7 @@ img:after {
   @media all and (min-width: 1440px) {
     .project__project {
       max-width: 800px;
+      flex-basis: 800px;
       padding: 40px 40px; } }
   @media all and (min-width: 1920px) {
     .project__project {
