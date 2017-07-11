@@ -20,6 +20,7 @@
 
   @include bp($bp-desktop) {
     max-width: 800px;
+    flex-basis: 800px;
     padding: $d-quin $d-quin;
   }
 
