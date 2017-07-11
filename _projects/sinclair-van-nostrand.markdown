@@ -4,8 +4,8 @@ date: 2017-05-04 16:01:00 Z
 position: 7
 thumbnail:
   image: "/uploads/SvN_thumb.jpg"
-  height: 600
-  width: 800
+  height: 615
+  width: 750
 images:
 - "/uploads/SvN_5.jpg"
 - "/uploads/SvN_6.jpg"
