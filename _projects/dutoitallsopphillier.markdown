@@ -1,7 +1,7 @@
 ---
 title: du Toit Allsopp Hillier
-date: 2017-05-01 16:16:00 Z
-position: 15
+date: 2017-05-01 12:16:00 -04:00
+position: 16
 thumbnail:
   image: "/uploads/DTAH_thumb.jpg"
   height: 800

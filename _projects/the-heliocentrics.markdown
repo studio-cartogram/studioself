@@ -1,7 +1,7 @@
 ---
 title: The Heliocentrics
-date: 2017-05-13 20:52:00 Z
-position: 14
+date: 2017-05-13 16:52:00 -04:00
+position: 15
 thumbnail:
   image: "/uploads/Helio_thumb.jpg"
   height: 700
