@@ -11,21 +11,22 @@
   padding: 0 0 $d-duoHalf;
 
   @include bp($bp-tablet) {
-    margin: $d-quad $d-quad;
-  }
-
-  @include bp($bp-laptop) {
+    padding: $d-quad $d-quad;
     width: 50%;
   }
 
+  @include bp($bp-laptop) {
+  }
+
   @include bp($bp-desktop) {
-    max-width: 800px;
-    margin: $d-quin $d-quin;
     flex-basis: 800px;
+    max-width: 800px;
+    padding: $d-quin $d-quin;
   }
 
   @include bp($bp-widescreen) {
     margin: $d-sep $d-sex;
+    padding: 0;
   }
 
 }
