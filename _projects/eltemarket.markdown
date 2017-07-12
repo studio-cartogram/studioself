@@ -1,7 +1,7 @@
 ---
 title: Elte Market
 date: 2017-05-11 20:33:00 Z
-position: 10
+position: 12
 thumbnail:
   image: "/uploads/MKT_thumb.jpg"
   height: 740
@@ -19,6 +19,6 @@ images:
 - "/uploads/MKT_1.jpg"
 ---
 
-Identity, naming, signage and printed materials for Elte Market, a new store by Elte, a well known furniture and homewares retailer in Toronto. Using the store’s location as a starting point – a repurposed industrial space – the logo and identity simply references the visual language of the factory. Stencil typography, hand painted signage, and raw materials like wood, cardboard and cork all reinforce the connection to industrial spaces, prefabrication and mass production. The connection to furniture is drawn by using a particular stencil typeface, which was typically featured on the architectural drawings and printed materials of legendary mid-century architects and designers like Le Corbusier, Jean Prouvé, and Serge Mouille.
+Visual identity created for Elte Market, a new furniture retail space by Elte, a well known furniture and homewares retailer in Toronto. Using the store’s location as a starting point, a repurposed industrial space, the logo and identity references the visual language of the factory. Stencil typography, hand painted signage, and raw materials like wood, cardboard and cork all reinforce the connection to industrial spaces, prefabrication and mass production. The connection to furniture is drawn by using a particular stencil typeface, typically featured on the architectural drawings and printed materials of legendary mid-century architects and designers like Le Corbusier, Jean Prouvé, and Serge Mouille.
 
-Completed in 2013 for Concrete, with John Plypczak and Jordan Poirier.
+Includes identity, naming, signage, hang tags and printed materials. Completed in 2013 for Concrete, with John Plypczak and Jordan Poirier.

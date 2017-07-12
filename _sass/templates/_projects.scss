@@ -21,6 +21,7 @@
   @include bp($bp-desktop) {
     max-width: 800px;
     margin: $d-quin $d-quin;
+    flex-basis: 800px;
   }
 
   @include bp($bp-widescreen) {
