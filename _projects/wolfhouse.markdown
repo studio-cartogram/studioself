@@ -1,7 +1,7 @@
 ---
 title: The Wolf House
 date: 2017-05-10 15:54:00 -04:00
-position: 11
+position: 8
 thumbnail:
   image: "/uploads/Wolf_thumb.jpg"
   height: 600
