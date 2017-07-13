@@ -21,4 +21,4 @@ images:
 
 Visual identity created for Elte Market, a new furniture retail space by Elte, a well known furniture and homewares retailer in Toronto. Using the store’s location as a starting point, a repurposed industrial space, the logo and identity references the visual language of the factory. Stencil typography, hand painted signage, and raw materials like wood, cardboard and cork all reinforce the connection to industrial spaces, prefabrication and mass production. The connection to furniture is drawn by using a particular stencil typeface, typically featured on the architectural drawings and printed materials of legendary mid-century architects and designers like Le Corbusier, Jean Prouvé, and Serge Mouille.
 
-Includes identity, naming, signage, hang tags and printed materials. Completed in 2013 for Concrete, with John Plypczak and Jordan Poirier.
+Includes identity, naming, signage, hang tags and printed materials. Completed in 2014 for Concrete, with John Pylypczak and Jordan Poirier.
