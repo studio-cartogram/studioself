@@ -10,6 +10,7 @@ I have over 12 years of experience working for large and small clients in many d
 *  
 *  
 # Contact Information
+
 * Matthew Boyd
 * Email [info@matthewboyd.studio](mailto:info@matthewboyd.studio)
 * Telephone [1 416 551 6015](tel:14165516015)
