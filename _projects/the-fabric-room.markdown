@@ -1,7 +1,7 @@
 ---
 title: The Fabric Room
 date: 2017-05-15 16:14:00 -04:00
-position: 10
+position: 11
 thumbnail:
   image: "/uploads/TheFabricRoom_thumb.jpg"
   height: 600
