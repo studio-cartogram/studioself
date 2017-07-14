@@ -1,7 +1,7 @@
 ---
 title: Concrete
 date: 2017-06-05 20:25:00 -04:00
-position: 6
+position: 7
 thumbnail:
   image: "/uploads/ConcreteBox_thumb.jpg"
   height: 800
